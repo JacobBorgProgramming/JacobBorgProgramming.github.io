@@ -6,6 +6,21 @@ margin-right: 30px;
 margin-left: 30px;
 margin-top: 5px;
 }
-.links {
-  
+a:visited {
+  color: #000066;
+}
+
+/* selected link */
+
+a:link, a:visited {
+  background-color: #005eb9;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: #004080;
+  color: white;
 }
