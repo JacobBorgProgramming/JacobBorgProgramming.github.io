@@ -24,3 +24,15 @@ a:hover, a:active {
   background-color: #004080;
   color: white;
 }
+
+body{
+  background-color:#d9d9d9;
+}
+#main{
+  padding-top: 10px;
+  padding-left:50px;
+  padding-right:50px;
+}
+#menu{
+  background:#005eb9;
+}
