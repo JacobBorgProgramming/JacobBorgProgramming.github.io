@@ -32,7 +32,22 @@ body{
   padding-top: 10px;
   padding-left:50px;
   padding-right:50px;
+
+  padding-bottom:50px
 }
 #menu{
   background:#005eb9;
+}
+#oops{
+
+}
+#hosted{
+  color:#004080;
+  position: fixed;
+  bottom: 10px;
+}
+#logo{
+  position: fixed;
+  bottom:8px;
+  right:8px
 }
