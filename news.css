@@ -1,0 +1,48 @@
+#menu{
+  background:#005eb9;
+font-size: 2vh;
+}
+#menu a:link, a:visited {
+  background-color: #005eb9;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#menu a:hover, a:active {
+  background-color: #004080;
+  color: white;
+}
+#blk{
+  padding-top: 10px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:10px;
+}
+body{
+  background-color:#8c8c8c;
+}
+article{
+  padding-top: 10px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:10px;
+  font-size: 4.2mm;
+  background-color: #a6a6a6;
+  text-align: center;
+}
+#article{
+  font-size: 4.4mm;
+  text-align: center;
+}
+#article1{
+  font-size: 4.0mm;
+  text-align: center;
+}
+#blk{
+  padding-top: 10px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:10px;
+}
