@@ -1,10 +1,13 @@
 html, body {
 max-width: 100%;
 max-width:100%;
-overflow-x: hidden;
+overflow-x: scroll;
 margin-right: 30px;
 margin-left: 30px;
 margin-top: 5px;
+}
+#head{
+
 }
 
 /* selected link */
@@ -26,6 +29,9 @@ a:hover, a:active {
 
 body{
   background-color:#8c8c8c;
+  background: url(https://static.wixstatic.com/media/a1c3f2_47f1e88defa246df80ee87c9433b765e~mv2_d_2000_5000_s_2.jpg) no-repeat center fixed;
+  background-size: cover;
+  overflow-x: scroll;
 }
 #blk{
   padding-top: 10px;

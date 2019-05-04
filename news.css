@@ -14,6 +14,22 @@ font-size: 2vh;
   background-color: #004080;
   color: white;
 }
+#menu1{
+
+font-size: 2.5mm;
+}
+#menu1 a:link, a:visited {
+  background-color: #005eb9;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#menu1 a:hover, a:active {
+  background-color: #004080;
+  color: white;
+}
 #blk{
   padding-top: 10px;
   padding-left:50px;
@@ -21,7 +37,10 @@ font-size: 2vh;
   padding-bottom:10px;
 }
 body{
-  background-color:#8c8c8c;
+  background-color:#666666;
+  background: url(https://static.wixstatic.com/media/a1c3f2_47f1e88defa246df80ee87c9433b765e~mv2_d_2000_5000_s_2.jpg) no-repeat center fixed;
+  background-size: cover;
+  overflow-x: scroll;
 }
 article{
   padding-top: 10px;
