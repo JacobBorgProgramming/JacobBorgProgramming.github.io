@@ -29,7 +29,7 @@ a:hover, a:active {
 
 body{
   background-color:#8c8c8c;
-  background: url(https://static.wixstatic.com/media/a1c3f2_47f1e88defa246df80ee87c9433b765e~mv2_d_2000_5000_s_2.jpg) no-repeat center fixed;
+  background: url(./webbackground.jpg) no-repeat center fixed;
   background-size: cover;
   overflow-x: scroll;
 
