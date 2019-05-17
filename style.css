@@ -12,7 +12,7 @@ margin-top: 5px;
 
 /* selected link */
 
-a:link, a:visited {
+#menu a:link, a:visited {
   background-color: #005eb9;
   color: white;
   padding: 14px 25px;
@@ -21,7 +21,7 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+#menu a:hover, a:active {
   background-color: #004080;
   color: white;
 }
@@ -90,4 +90,12 @@ font-size: 5mm;
   bottom:8px;
   right:12px;
 
+}
+#footer a:link, a:active{
+    color: white;
+  text-decoration: none;
+}
+#footer a:hover{
+  color: white;
+  text-decoration: underline;
 }
