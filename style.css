@@ -75,6 +75,11 @@ body{
 }
 #menu{
   background:#005eb9;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.001mm;
+  border-color: #005eb9;
+
 font-size: 2vh;
 }
 #oops{
