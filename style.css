@@ -32,7 +32,7 @@ body{
   background: url(./webbackground.jpg) no-repeat center fixed;
   background-size: cover;
   overflow-x: scroll;
-  
+
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -70,6 +70,15 @@ body{
 }
 #program a:link{
   background-color: #005eb9;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.8mm;
+}
+#program a:hover{
+  background-color: #004080;
   color: white;
   padding: 5px 15px;
   text-align: center;
