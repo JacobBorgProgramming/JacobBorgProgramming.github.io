@@ -120,3 +120,25 @@ font-size: 5mm;
   color: white;
   text-decoration: underline;
 }
+#link a:link, a:active{
+    color: white;
+      background-color:#005eb9;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 5px;
+  border-top: 0.01mm;
+  border-bottom: 0.01mm;
+  border-width: 0.05mm;
+  border-color: #005eb9;
+}
+#link a:hover{
+  color: white;
+  background-color:#004080;
+  border-style: solid;
+  border-radius: 5px;
+  border-top: 0.01mm;
+  border-bottom: 0.01mm;
+  border-width: 0.05mm;
+  border-color: #004080;
+  text-decoration: underline;
+}
