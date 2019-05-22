@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 #menu{
   background:#005eb9;
 font-size: 2vh;
