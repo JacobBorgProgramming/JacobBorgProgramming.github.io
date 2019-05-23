@@ -203,3 +203,31 @@ article{
  .sidebar {padding-top: 15px;}
  .sidebar a {font-size: 18px;}
 }
+.topbtn {
+ font-size: 5mm;
+ cursor: pointer;
+ background-color: #005eb9;
+ color: white;
+ padding: 10px 15px;
+ border-style: solid;
+ border-radius: 20px;
+ border-width: 0.1mm;
+ border-color: #005eb9;
+ position: fixed;
+ bottom: 10px;
+text-decoration: none;
+}
+.topbtn:hover {
+ font-size: 5mm;
+ cursor: pointer;
+ background-color: #004080;
+ color: white;
+ padding: 10px 15px;
+ border-style: solid;
+ border-radius: 20px;
+ border-width: 0.1mm;
+ border-color: #004080;
+ position: fixed;
+ bottom: 10px;
+text-decoration: none;
+}

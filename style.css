@@ -155,7 +155,7 @@ font-size: 5mm;
 /* Callout box - fixed position at the bottom of the page */
 .callout {
  position: fixed;
- bottom: 20px;
+ top: 20px;
  right: 20px;
  margin-left: 20px;
  max-width: 300px;
@@ -244,6 +244,7 @@ font-size: 5mm;
  border-color: #005eb9;
  position: fixed;
  top: 10px;
+
 }
 
 .openbtn:hover {
@@ -261,4 +262,48 @@ font-size: 5mm;
 @media screen and (max-height: 450px) {
  .sidebar {padding-top: 15px;}
  .sidebar a {font-size: 18px;}
+}
+
+
+.topbtn {
+ font-size: 5mm;
+ cursor: pointer;
+ background-color: #005eb9;
+ color: white;
+ padding: 10px 15px;
+ border-style: solid;
+ border-radius: 20px;
+ border-width: 0.1mm;
+ border-color: #005eb9;
+ position: fixed;
+ bottom: 10px;
+
+}
+.topbtn {
+ font-size: 5mm;
+ cursor: pointer;
+ background-color: #005eb9;
+ color: white;
+ padding: 10px 15px;
+ border-style: solid;
+ border-radius: 20px;
+ border-width: 0.1mm;
+ border-color: #005eb9;
+ position: fixed;
+ bottom: 10px;
+text-decoration: none;
+}
+.topbtn:hover {
+ font-size: 5mm;
+ cursor: pointer;
+ background-color: #004080;
+ color: white;
+ padding: 10px 15px;
+ border-style: solid;
+ border-radius: 20px;
+ border-width: 0.1mm;
+ border-color: #004080;
+ position: fixed;
+ bottom: 10px;
+text-decoration: none;
 }
