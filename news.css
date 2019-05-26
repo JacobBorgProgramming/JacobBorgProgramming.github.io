@@ -41,12 +41,18 @@ font-size: 2.5mm;
   padding-right:50px;
   padding-bottom:10px;
 }
+/*
 body{
   background-color:#666666;
   background: url(./webbackground.jpg) no-repeat center fixed;
   background-size: cover;
   overflow-x: scroll;
     font-size: 4.2mm;
+}
+*/
+body {
+  height: 300px; /* Used to enable scrolling */
+  background: linear-gradient(55deg, #bfbfbf 5%, #737373 47%, #005eb9 85%);
 }
 article{
   padding-top: 10px;
