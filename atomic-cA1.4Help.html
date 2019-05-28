@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140492711-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-140492711-1');
+</script>
+ <!--ATOMIC is created and managed by Jacob Borg & JacobBorgProgramming-->
+<link rel="stylesheet" type="text/css" href="style.css" rel="Software" type="text/css" href="software.html">
+
+<head>
+  <a id="top"></a>
+
+  <link rel="shortcut icon" href="./atomiclogo.png" />
+  <title>ATOMIC cA1.4</title>
+  <div>
+    <p style="text-align:center;"><img src="./atomiclogo.png" width="225" height="225" alt="JBP Logo" align="middle"></p>
+  </div>
+
+<div id="mySidebar" class="sidebar">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="./index.html">Home</a>
+<a href="./software.html">Software</a>
+<a href="./news.html">News</a>
+<a href="https://jacobborgprogramming.wordpress.com/contact/">Contact</a>
+<a href="https://jacobborgprogramming.wixsite.com/jbpsoftware" target="_blank">JBP Software</a>
+</div>
+
+
+<button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+
+
+<script>
+
+function openNav() {
+document.getElementById("mySidebar").style.width = "250px";
+document.getElementById("main").style.marginLeft = "250px";
+}
+
+
+function closeNav() {
+document.getElementById("mySidebar").style.width = "0";
+document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</head>
+
+<body>
+<div id="main">
+  <h1 style="text-align:center;">cA1.4</h1>
+<p style="font-weight:bold; text-align:center; color:#1a1a1a;">Atomic cA1.4 Help</p>
+<p style="font-weight:bold; text-align:center; color:#1a1a1a;">If the page is broken or unresponsive, make sure your browser allows Javascript. Atomic REQUIRES Javascript to generate your strong passwords! For aditional help please contact us through the contact page.</p>
+
+
+
+<p style="text-align:center;"><a href="./atomic-cA1.4.html">Let's Go Make a Password!</a></p>
+</div>
+ <!--ATOMIC is created and managed by Jacob Borg & JacobBorgProgramming-->
+
+</body>
+<footer id="footer">
+
+
+<p style="text-align:center;"><a href="https://github.com/JacobBorgProgramming" target="_blank"><img src="./githubicon.png" width "50" height="50"></a>  <a href="https://www.instagram.com/jborg_900/" target="_blank"><img src="./instagramicon.png" width "50" height="50"></a>    <a href="https://jacobborgprogramming.wordpress.com" target="_blank"><img src="./wordpressicon.png" width "50" height="50"></a> </p>
+
+<p style="text-align:center;"><a href="./privacy.html">Privacy</a></p>
+<p style="text-align:center;"><a href="#top">Top</a></p>
+<p style="text-align:center;">The JBP and ATOMIC (cA1.4) logos and the social icons were created on <a href="https://logomakr.com/" target="_blank">logomakr.com</a></p>
+
+  <div class="callout">
+   <div class="callout-header">Disclaimer</div>
+   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+   <div class="callout-container">
+     <p>This help page uses Google Analytics. This is so that we can identify how many people need assistance with Atomic.</p>
+   </div>
+ </div>
+
+</footer>
+<script language="JavaScript">
+  /**
+    * Disable right-click of mouse, F12 key, and save key combinations on page
+    * By Arthur Gareginyan (arthurgareginyan@gmail.com)
+    * For full source code, visit https://mycyberuniverse.com
+    */
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+
+ <!--ATOMIC is created and managed by Jacob Borg & JacobBorgProgramming-->
+</html>

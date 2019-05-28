@@ -9,6 +9,18 @@ margin-top: 5px;
 html {
   scroll-behavior: smooth;
 }
+#gen {
+  background-color: #005eb9;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 #head{
 
 }
