@@ -61,23 +61,29 @@ body{
           user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome and Opera */
 }
+#body{
+  opacity: 0.5;
+  background-color:#8c8c8c;
+}
 #blk{
   padding-top: 10px;
   padding-left:50px;
   padding-right:50px;
   padding-bottom:10px;
 }
+
 #main{
-  padding-top: 10px;
-  padding-left:50px;
-  padding-right:50px;
-  padding-bottom:10px;
   font-size: 4.2mm;
   background-color: #a6a6a6;
-  border-style: solid;
-  border-radius: 20px;
+  width: auto;
   border-width: 0.1mm;
   border-color: #005eb9;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 1mm;
+  margin-bottom: 1mm;
+  margin-right: 1mm;
+  margin-left: 1mm;
 }
 #program{
   padding-top: 10px;
