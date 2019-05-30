@@ -61,10 +61,6 @@ body{
           user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome and Opera */
 }
-#body{
-  opacity: 0.5;
-  background-color:#8c8c8c;
-}
 #blk{
   padding-top: 10px;
   padding-left:50px;
