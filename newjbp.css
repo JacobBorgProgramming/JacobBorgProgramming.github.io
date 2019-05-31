@@ -1,0 +1,159 @@
+html, body {
+max-width: 100%;
+max-width:100%;
+overflow-x: scroll;
+margin-right: 0px;
+margin-left: 0px;
+margin-top: 0px;
+}
+
+body{
+  margin-top: 30mm;
+  background-color:#8c8c8c;
+  background: url(./webbackground.jpg) no-repeat center fixed;
+  background-size: cover;
+  overflow-x: scroll;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+
+#blk{
+  padding-top: 10mm;
+  padding-left: 5mm;
+  padding-right: 5mm;
+  margin-left: 20mm;
+  margin-right: 20mm;
+}
+#body{
+  padding-top: 10mm;
+  padding-left: 5mm;
+  padding-right: 5mm;
+  margin-left: 20mm;
+  margin-right: 20mm;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #e6e6e6;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+
+
+#gen {
+  background-color: #005eb9;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* The alert message box */
+.alert {
+ padding: 20px;
+ background-color: #f44336; /* Red */
+ color: white;
+ margin-top: 15px;
+ position: fixed;
+
+}
+
+/* The close button */
+.closebtn {
+ margin-left: 15px;
+ color: white;
+ font-weight: bold;
+ float: right;
+ font-size: 22px;
+ line-height: 20px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+ color: black;
+}
+.alert1 {
+ padding: 20px;
+ background-color: #ff9900; /* Red */
+ color: white;
+ margin-top: 15px;
+ position: fixed;
+
+}
+#alert a:link a:active{
+
+  text-decoration: none;
+}
+#alert a:hover{
+  color: #000000;
+  text-decoration: underline;
+}
+#foot a:link a:active{
+  color: #cccccc;
+  text-decoration: none;
+}
+#foot a:hover{
+  color: #000000;
+  text-decoration: underline;
+}
+a{
+  color: #cccccc;
+  text-decoration: none;
+}
+a:link{
+  color: #cccccc;
+  text-decoration: none;
+}
+a:hover{
+  color: #000000;
+  text-decoration: underline;
+}
+#foot1{
+  column-count: 3;
+}
+#foot1 a:link a:active{
+  color: #cccccc;
+  text-decoration: none;
+}
+#foot1 a:hover{
+  color: #000000;
+  text-decoration: underline;
+}

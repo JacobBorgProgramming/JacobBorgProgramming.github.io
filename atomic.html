@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<!--ATOMIC is created and managed by Jacob Borg & JacobBorgProgramming-->
+<link rel="stylesheet" type="text/css" href="newjbp.css">
+<head>
+  <a id="top"></a>
+
+  <link rel="shortcut icon" href="./JacoBorgProgrammingLogo.png" />
+  <title>ATOMIC</title>
+</head>
+<header>
+
+  <div class="navbar">
+    <a href="./index.html"><img src="./JacoBorgProgrammingLogo.png" width="80mm" height="80mm" alt="JBP Logo" align="middle"></a>
+    <a href="./atomic.html"><img src="./newAtomic.png" width="80mm" height="80mm" alt="Atomic link" align="middle"></a>
+    <a href="./news.html"><img src="./jbpnews.png" width="80mm" height="80mm" alt="News link" align="middle"></a>
+  </div>
+
+
+<div id="alert">
+  <div class="alert1">
+   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+   This page is private! This is to protect your passwords.
+ </div>
+</div>
+
+
+
+</header>
+<body>
+  <div id="body" style="background-color:rgba(100, 100, 100, 0.5);">
+      <p style="text-align:center;"><img src="./newAtomic.png" width="125" height="125" alt="JBP Logo" align="middle"></p>
+
+    <h1 style="text-align:center;color:white;">cA1.4</h1>
+  <p style="font-weight:bold; text-align:center; color:white; ">Generate a password below!</p>
+  <p style="font-weight:bold; text-align:center; color:white;">PRIVACY: JACOBBORGPROGRAMMING, JACOB BORG, OR ANY OF THEIR AFFILIATES DO NOT COLLECT ANY DATA FROM THIS PAGE. THIS PROTECTS YOUR PASSWORDS.</p>
+  <p style="font-weight: normal; text-align:center; color:white;">To reset the password refresh the page</p>
+
+
+  <div style="text-align: center"><button onclick="cA1N()" id="gen">Generate a Strong Password</button>
+<div id="blk">
+
+</div>
+  </div>
+  <script>
+
+
+
+    var r1 = "d" + Math.floor(Math.random() * 1001);
+    var r2 = "c" + Math.floor(Math.random() * 101);
+    var r3 = "v" + Math.floor(Math.random() * 1001);
+    var r4 = "p" + Math.floor(Math.random() * 101);
+    var r5 = "Q" + Math.floor(Math.random() * 1001);
+    var r6 = "L" + Math.floor(Math.random() * 101);
+    var rr1 = Math.floor(Math.random() * 21);
+    var d = new Date();
+
+    var rr2 = r1 + r3
+    var rd = Date.length
+
+    var rr3 = r2 + r4
+    var rrr1 = rr1 + rr2
+    var result = r1 + "-" + r2 + "-" + r3 + "-" + r4 + "-" + r5
+    var rsln1 = result.length
+    var rsln2 = rrr1.length
+
+    function cA1N(){
+  window.alert(result + "-" + rsln1 + "-" + rsln2);
+  }
+  </script>
+</div>
+<div id="blk"><p></p></div>
+</body>
+
+<footer>
+
+
+
+
+<div id="foot">
+  <p style="text-align:center;"><a href="https://github.com/JacobBorgProgramming" target="_blank"><img src="./githubicon.png" width "50" height="50"></a>  <a href="https://www.instagram.com/jborg_900/" target="_blank"><img src="./instagramicon.png" width "50" height="50"></a>    <a href="https://jacobborgprogramming.wordpress.com" target="_blank"><img src="./wordpressicon.png" width "50" height="50"></a> </p>
+</div>
+<div id="foot1">
+  <p style="text-align:center;" ><a href="./privacy.html">Privacy</a></p>
+  <p style="text-align:center;"><a href="./software.html">Software</a></p>
+
+  <p style="text-align:center;"><a href="./news.html">News</a></p>
+  <p style="text-align:center;">The JBP logo and the social icons were created on <a href="https://logomakr.com/" target="_blank">logomakr.com</a></p>
+
+  <p style="text-align:center;"><a href="#top">Top</a></p>
+  <p style="text-align:center;"><a href="./home-private">Private Site</a></p>
+</div>
+</footer>
+<script language="JavaScript">
+  /**
+    * Disable right-click of mouse, F12 key, and save key combinations on page
+    * By Arthur Gareginyan (arthurgareginyan@gmail.com)
+    * For full source code, visit https://mycyberuniverse.com
+    */
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+
+ <!--ATOMIC is created and managed by Jacob Borg & JacobBorgProgramming-->
+</html>
