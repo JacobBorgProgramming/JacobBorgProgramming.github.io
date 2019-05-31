@@ -148,12 +148,15 @@ a:hover{
 }
 #foot1{
   column-count: 3;
+  font-size: 4.5mm;
 }
 #foot1 a:link a:active{
   color: #cccccc;
   text-decoration: none;
+  font-size: 4.5mm;
 }
 #foot1 a:hover{
   color: #000000;
   text-decoration: underline;
+  font-size: 4.5mm;
 }
