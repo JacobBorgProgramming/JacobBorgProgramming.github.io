@@ -113,9 +113,10 @@ body{
 .alert1 {
  padding: 20px;
  background-color: #ff9900; /* Red */
- color: white;
+ color: black;
  margin-top: 15px;
  position: fixed;
+
 
 }
 #alert a:link a:active{
