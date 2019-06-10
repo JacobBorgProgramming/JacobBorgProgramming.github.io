@@ -161,3 +161,11 @@ a:hover{
   text-decoration: underline;
   font-size: 4.5mm;
 }
+.alert2 {
+ padding: 20px;
+ background-color: #bf00ff; /* Red */
+ color: white;
+ margin-top: 15px;
+ position: fixed;
+
+}
