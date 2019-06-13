@@ -187,3 +187,7 @@ font-family: 'Montserrat', sans-serif;
  position: fixed;
 font-family: 'Montserrat', sans-serif;
 }
+#title{
+  text-decoration: underline;
+
+}
