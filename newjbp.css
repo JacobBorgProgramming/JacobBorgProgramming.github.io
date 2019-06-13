@@ -8,6 +8,7 @@ margin-top: 0px;
 }
 html {
   scroll-behavior: smooth;
+
 }
 
 body{
@@ -144,6 +145,7 @@ font-family: 'Montserrat', sans-serif;
   color: #cccccc;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+
 }
 #foot a:hover{
   color: #000000;
