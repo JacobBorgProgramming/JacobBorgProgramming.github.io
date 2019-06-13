@@ -22,7 +22,12 @@ body{
           user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome and Opera */
 }
-
+article{
+  font-family: 'Montserrat', sans-serif;
+  background-color:rgba(100, 100, 100, 0.5);
+  color:#e6e6e6;
+  text-align: center;
+}
 #blk{
   padding-top: 10mm;
   padding-left: 5mm;
