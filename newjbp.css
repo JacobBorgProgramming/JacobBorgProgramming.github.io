@@ -32,10 +32,11 @@ body{
 }
 #body{
   padding-top: 10mm;
-  padding-left: 5mm;
-  padding-right: 5mm;
-  margin-left: 20mm;
-  margin-right: 20mm;
+  padding-left: 4mm;
+  padding-right: 4mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -91,6 +92,7 @@ body{
  color: white;
  margin-top: 15px;
  position: fixed;
+ font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -122,44 +124,54 @@ body{
 #alert a:link a:active{
 
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 #alert a:hover{
   color: #000000;
   text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
 }
 #foot a:link a:active{
   color: #cccccc;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 #foot a:hover{
   color: #000000;
   text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
 }
 a{
   color: #cccccc;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 a:link{
   color: #cccccc;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 a:hover{
   color: #000000;
   text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
 }
 #foot1{
   column-count: 3;
   font-size: 4.5mm;
+  font-family: 'Montserrat', sans-serif;
 }
 #foot1 a:link a:active{
   color: #cccccc;
   text-decoration: none;
   font-size: 4.5mm;
+  font-family: 'Montserrat', sans-serif;
 }
 #foot1 a:hover{
   color: #000000;
   text-decoration: underline;
   font-size: 4.5mm;
+  font-family: 'Montserrat', sans-serif;
 }
 .alert2 {
  padding: 20px;
@@ -167,5 +179,5 @@ a:hover{
  color: white;
  margin-top: 15px;
  position: fixed;
-
+font-family: 'Montserrat', sans-serif;
 }
