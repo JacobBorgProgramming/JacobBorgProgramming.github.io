@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jacobborgprogramming.github.io/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/atomic.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/news.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/privacy.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/software.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/home-private.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/home-private</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/software-private.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/news-private.html</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/a13a.html</loc>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
