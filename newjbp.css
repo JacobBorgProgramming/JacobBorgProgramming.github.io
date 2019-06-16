@@ -26,6 +26,18 @@ body{
           user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome and Opera */
 }
+#pbody{
+  background: linear-gradient(55deg, #bfbfbf 5%, #737373 47%, #005eb9 85%);
+  overflow-x: scroll;
+height: 300mm; /* Used to enable scrolling */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
 article{
   font-family: 'Montserrat', sans-serif;
   background-color:rgba(100, 100, 100, 0.5);
