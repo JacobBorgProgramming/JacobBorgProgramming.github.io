@@ -185,3 +185,30 @@ a:hover{
  position: fixed;
 
 }
+#atomicbut{
+  color: white;
+  background-color: #e7e7e7; color: black;
+  border: none;
+  font-size: 7mm;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+display: block;
+  width:100%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+}
+#atomicbut:hover{
+  color: white;
+  background-color: #3366cc;
+  border: none;
+  font-size: 7mm;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+display: block;
+width:100%;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+}
