@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--ATOMIC is created and managed by Jacob Borg & JacobBorgProgramming-->
+<link rel="stylesheet" type="text/css" href="atomic.css">
+<meta name="Description" content="Atomic Password Generator">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <a id="top"></a>
+
+  <link rel="shortcut icon" href="./JacoBorgProgrammingLogo.png" />
+  <title>Atomic Password Generator</title>
+</head>
+<header>
+
+  <div class="navbar">
+    <a href="./index.html"><img src="./JacoBorgProgrammingLogo.png" width="70mm" height="70mm" alt="JBP Logo" align="middle"></a>
+    <a href="./atomic.html"><img src="./newAtomic.png" width="70mm" height="70mm" alt="Atomic link" align="middle"></a>
+    <a href="./news.html"><img src="./jbpnews.png" width="70mm" height="70mm" alt="News link" align="middle"></a>
+</div>
+
+
+<div id="alert">
+  <div class="alert1">
+   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+DISCLAIMER: JACOBBORGPROGRAMMING, JACOB BORG, OR ANY AFFILIATES OF EITHER PARTY ARE NOT RESPONSIBLE FOR ANY DATA, DEVICE, INFORMATION, ETC DAMAGED, STOLEN, OR COMPROMISED IN ANY WAY (EVEN IF USING A PASSWORD DEVELOPED ON THIS SITE).
+ </div>
+</div>
+
+
+
+</header>
+<body>
+  <div id="body" style="background-color:rgba(100, 100, 100, 0.5);">
+      <p style="text-align:center;"><img src="./newAtomic.png" width="125" height="125" alt="JBP Logo" align="middle"></p>
+
+    <h1 style="text-align:center;color:white;">cA1.5.2</h1>
+  <p style="font-weight:bold; text-align:center; color:white;">PRIVACY: JACOBBORGPROGRAMMING AND JACOB BORG DO NOT COLLECT ANY DATA FROM THIS PAGE. THIS PROTECTS YOUR PASSWORDS. TO INSURE YOUR PRIVACY, USE THE PASSWORD GENERATOR IN A PRIVATE WINDOW.</p>
+  <p style="font-weight: normal; text-align:center; color:white;">To reset the password refresh the page</p>
+
+
+  <!--<div style="text-align: center"><button onclick="cA1N()" id="atomicbut">Generate a Strong Password</button>-->
+<div id="blk">
+
+</div>
+  </div>
+  <script>
+
+
+
+    var r1 = "Z" + Math.floor(Math.random() * 1001);
+    var r2 = "Q" + Math.floor(Math.random() * 101);
+    var r3 = "k" + Math.floor(Math.random() * 1001);
+    var r4 = "p" + Math.floor(Math.random() * 101);
+    var r5 = "Q" + Math.floor(Math.random() * 1001);
+    var r6 = "L" + Math.floor(Math.random() * 101);
+    var rr1 = Math.floor(Math.random() * 21);
+    var d = new Date();
+
+    var rr2 = r1 + r6
+    var rd = Date.length
+
+    var rr3 = r2 + r4
+    var rrr1 = rr1 + rr2
+    var result = r1 + "-" + r2 + "-" + r3 + "-" + r4 + "-" + r5
+    var rsln1 = result.length
+    var rsln2 = rrr1.length
+    var sc = screen.availHeight+screen.availWidth + rr1
+    <!--function cA1N(){-->
+  window.alert(result + "-" + rsln1 + "-" + sc);
+  <!--}-->
+  </script>
+</div>
+<div id="blk"><p></p></div>
+</body>
+
+<footer>
+<div id="foot">
+  <p style="text-align:center;"><a href="https://github.com/JacobBorgProgramming" target="_blank" rel="noopener"><img src="./githubicon.png" width "50" height="50" alt="GitHub Link"></a>     <a href="https://twitter.com/jborg_900" target="_blank" rel="noopener"><img src="./twittericon.png" width "50" height="50" alt="Twitter Link"></a>     <a href="https://www.instagram.com/jborg_900/" target="_blank" rel="noopener"><img src="./instagramicon.png" width "50" height="50" alt="Instagram Link"></a>    <a href="https://jacobborgprogramming.wordpress.com" target="_blank" rel="noopener"><img src="./wordpressicon.png" width "50" height="50" alt="Wordpress Link"></a> </p>
+
+</div>
+<div id="foot1">
+  <p style="text-align:center;">The JBP logo and the social icons were created on <a href="https://logomakr.com/" target="_blank" rel="noopener">logomakr.com</a></p>
+
+</div>
+<div id="foot2">
+  <p><a href="./JBPservices/jbpserv.html" rel="noopener"><img src="./jbpservlogo.png" width="70mm" height="70mm" alt="JBP Services"></a></p>
+<p style="text-align:center;"><a href="#top"><button id="foob">Top</button></a></p>
+<p style="text-align:center;"><a href="./map.html"><button id="foob">Site Map</button></a></p>
+<p style="text-align:center;"><a href="./JBPservices/page2.html" target="_blank" rel="noopener"><button id="foob">Contact</button></a></p>
+</div>
+</footer>
+<script language="JavaScript">
+  /**
+    * Disable right-click of mouse, F12 key, and save key combinations on page
+    * By Arthur Gareginyan (arthurgareginyan@gmail.com)
+    * For full source code, visit https://mycyberuniverse.com
+    */
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+
+ <!--ATOMIC is created and managed by Jacob Borg & JacobBorgProgramming-->
+ </html>
