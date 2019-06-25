@@ -220,7 +220,7 @@ text-decoration: none;
 display: inline-block;
 }
 #foob{
-  color: #3366cc;
+  color: #794bc4;
 
   background-color: #e7e7e7;
   border: none;
@@ -232,17 +232,17 @@ display: inline-block;
 transition-duration: 0.4s;
 }
 #foob:hover{
-  color: #e7e7e7;
+  color: white;
 
-  background-color: #3366cc;
+  background-color: #794bc4;
   border: none;
   font-size: 5mm;
-  border-color: #3366cc;
+  border-color: #794bc4;
   border-radius: 8px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 #foot2{
-  background-color: #794bc4;
+  background-color: #767676;
   margin-bottom: 0px;
   padding: 3mm;
   font-size: 4.5mm;
