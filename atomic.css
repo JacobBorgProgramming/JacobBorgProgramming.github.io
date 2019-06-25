@@ -203,8 +203,8 @@ text-decoration: none;
 display: inline-block;
 }
 #atomicbut:hover{
-  color: white;
-  background-color: #3366cc;
+  color: black;
+  background-color: #ff9900;
   border: none;
   font-size: 7mm;
   padding: 16px;
