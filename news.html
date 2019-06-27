@@ -16,7 +16,7 @@
 <p style="text-align: center;"><a href="./news.html"><button id="linkbt4" name="button">News</button></a>      <a href="./atomic.html"><button id="linkbt4" name="button">Atomic</button></a>    <a href="./privacy.html"><button id="linkbt4" name="button">Privacy</button></a></p>
   </div>
 </header>
-<body>
+<body onload="myFunction()">
   <div>
   <h1 style="text-align: center; color: #e6e6e6; padding-bottom: 40mm;">What's New At JacobBorgProgramming</h1>
 </div>
@@ -36,6 +36,16 @@
 </article>
 <div id="blk" style="padding:10mm;"></div>
 
+<!-- Privacy Blocks snackbar -->
+<script>
+  function myFunction() {
+var x = document.getElementById("snackbar");
+x.className = "show";
+setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+  </script>
+<div id="snackbar"><img img src="./icons/pslogo.png" alt="secure page" height="50mm" width="50mm"></div>
+  <!-- End snackbar -->
 </body>
 <footer style="padding-top: 15mm;">
   <div>
