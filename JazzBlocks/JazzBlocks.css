@@ -1,0 +1,93 @@
+/*JazzBlocks.css Library*/
+/*JacobBorgProgramming*/
+/*https://jacobborgprogramming.github.io/index.html*/
+
+/*install JazzBlocks into your website by adding this file to its sourcecode folder and adding
+ <link rel="stylesheet" href="./JazzBlocks/JazzBlocks.css"> in its header
+ */
+
+
+
+/*Numeric bubble for alerts (Great for alerting the user of new blog posts)*/
+/*
+HTML example
+<h6 class="bubbleAlertNews">5</h6>
+*/
+.bubbleAlertNews{
+  text-align: center;
+  align-self: center;
+  margin: auto;
+  color: black;
+  border-style: inset;
+  border-radius: 40px;
+  background-color: #a6a6a6;
+  border-color: #999999;
+  font-size: 5mm;
+  width: 5mm;
+  box-shadow: 1px 1px 2px black, 0 0 25px #0000ee, 0 0 5px #003366;
+  margin-bottom: 3mm;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+/*An id to remove selection from an element*/
+#noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+/*Basic CSS for a blog post (With HTML example)*/
+
+/*
+<article id="blogpost1">
+  <h1>BlogPost1</h1>
+  <p>Text goes here... <button>Continue Reading</button></p>
+</article>
+*/
+#blogpost1{
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+  padding: 5mm;
+  background-color: #cecece;
+  font-family: 'Montserrat', sans-serif;
+}
+#blogpost1 h1{
+  color: black;
+text-align: center;
+border-style: solid;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+#blogpost1 button{
+  background-color: #3973ac;
+  color: #cecece;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5mm;
+  font-size: 4mm;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.3s;
+}
+#blogpost1 button:hover{
+  background-color: #4f94c9;
+  color: #cecece;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5mm;
+  font-size: 4mm;
+  cursor: pointer;
+}
+#blogpost1 button:active{
+  background-color: #12283a;
+  color: #cecece;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5mm;
+  font-size: 4mm;
+  cursor: pointer;
+}
