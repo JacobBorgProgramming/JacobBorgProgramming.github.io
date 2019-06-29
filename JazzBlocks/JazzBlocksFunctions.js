@@ -3,7 +3,7 @@
 //Import JazzBlocksFunctions via below code
 //<script type="text/javascript" src="https://jacobborgprogramming.github.io/JazzBlocks/JazzBlocksFunctions.js"></script>
 
-
+//JazzBlock DisableSelect (start)
 function disableselect(e) {
   return false
 }
@@ -18,3 +18,4 @@ if (window.sidebar) {
   document.onmousedown = disableselect
   document.onclick = reEnable
 }
+//(end)
