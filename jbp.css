@@ -53,6 +53,7 @@ background-color: #0073e6;
   width: 30mm;
   height: 25mm;
   box-shadow: 0px 0px 5mm #9900ff;
+  cursor: pointer;
 }
 #linkbt3:active{
   font-family: 'Montserrat', sans-serif;
@@ -68,6 +69,7 @@ background-color: #9900ff;
   height: 25mm;
   box-shadow: 0px 0px 5mm #0073e6;
   top: 5mm;
+  cursor: pointer;
 }
 #linkbt4{
   font-family: 'Montserrat', sans-serif;
@@ -98,6 +100,7 @@ background-color: #0073e6;
   width: 25mm;
   height: 20mm;
   box-shadow: 0px 0px 5mm #9900ff;
+  cursor: pointer;
 }
 #linkbt4:active{
   font-family: 'Montserrat', sans-serif;
@@ -113,6 +116,7 @@ background-color: #9900ff;
   height: 20mm;
   box-shadow: 0px 0px 5mm #0073e6;
   top: 5mm;
+  cursor: pointer;
 }
 #linkbt5{
   font-family: 'Montserrat', sans-serif;
@@ -143,6 +147,7 @@ background-color: #ff9900;
   width: 45mm;
   height: 20mm;
   box-shadow: 0px 0px 5mm #ff9900;
+  cursor: pointer;
 }
 #linkbt5:active{
   font-family: 'Montserrat', sans-serif;
@@ -158,6 +163,7 @@ background-color: #9900ff;
   height: 20mm;
   box-shadow: 0px 0px 5mm #0073e6;
   top: 5mm;
+  cursor: pointer;
 }
 #linkbt6{
   position: fixed;
@@ -191,6 +197,7 @@ background-color: #9900ff;
   width: 45mm;
   height: 20mm;
   box-shadow: 0px 0px 5mm #9900ff;
+  cursor: pointer;
 }
 #linkbt6:active{
   font-family: 'Montserrat', sans-serif;
@@ -205,6 +212,7 @@ background-color: #9900ff;
   width: 45mm;
   height: 20mm;
   box-shadow: 0px 0px 5mm #0073e6;
+  cursor: pointer;
 }
 #linkbt7{
 
