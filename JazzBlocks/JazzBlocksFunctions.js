@@ -1,6 +1,9 @@
 //JazzBlocksFunctions.js
 //discourage selection with the "disableselect" function!
-//Import JazzBlocksFunctions via link src="https://jacobborgprogramming.github.io/JazzBlocks/JazzBlocksFunctions.js"
+//Import JazzBlocksFunctions via below code
+//<script type="text/javascript" src="https://jacobborgprogramming.github.io/JazzBlocks/JazzBlocksFunctions.js"></script>
+
+
 function disableselect(e) {
   return false
 }
