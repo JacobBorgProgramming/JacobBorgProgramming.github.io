@@ -5,6 +5,8 @@ var r3 = "k" + Math.floor(Math.random() * 1001);
 var r4 = "p" + Math.floor(Math.random() * 101);
 var r5 = "Q" + Math.floor(Math.random() * 1001);
 var r6 = "L" + Math.floor(Math.random() * 101);
+var a1 = "w"
+var a2 ="X"
 var rr1 = Math.floor(Math.random() * 21);
 var d = new Date();
 
@@ -19,5 +21,5 @@ var rsln2 = rrr1.length
 var sc = screen.availHeight+screen.availWidth + rr1
 var rrr2= sc + rsln1
 function cA1N(){
-window.alert(result + "-" + rsln1 + "-" + rrr2);
+window.alert("cA1.5.4:    "+result + "-" + rsln1 + "-" + a1 + rr1 + a2);
 }
