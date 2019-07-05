@@ -4,13 +4,13 @@
 
 /*install JazzBlocks into your website by adding this file to its sourcecode folder and adding
  <link rel="stylesheet" href="./JazzBlocks/JazzBlocks.css">
- of
+ or
  <link href="https://jacobborgprogramming.github.io/JazzBlocks/JazzBlocks.css" rel="stylesheet">
  in its header
  */
 
 
-
+/*JazzBlock bubbleAlertNews*/
 /*Numeric bubble for alerts (Great for alerting the user of new blog posts)*/
 /*
 HTML example
@@ -36,7 +36,44 @@ HTML example
         -ms-user-select: none;
             user-select: none;
 }
+/*end*/
 
+/*JazzBlock jumb0tr0n*/
+.jumb0tr0n{
+  background-color: #999999;
+  text-align:center;
+  font-size: 15mm;
+  width: 100%;
+  border-bottom: groove;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  margin: 0mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {color: #ff9933; text-shadow: 0 0 10px #0033cc;}
+  to {color: yellow; text-shadow: 0 0 10px #4d79ff;}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {color: #ff9933; text-shadow: 0 0 10px #0033cc;}
+  to {color: yellow; text-shadow: 0 0 10px #4d79ff;}
+}
+/*end*/
+
+
+
+
+/*JazzBlock noselect*/
 /*An id to remove selection from an element*/
 #noselect {
   -webkit-touch-callout: none;
@@ -46,6 +83,9 @@ HTML example
         -ms-user-select: none;
             user-select: none;
 }
+/*end*/
+
+/*JazzBlock BlogPost1*/
 /*Basic CSS for a blog post (With HTML example)*/
 
 /*
@@ -94,3 +134,4 @@ border-right: none;
   font-size: 4mm;
   cursor: pointer;
 }
+/*end*/
