@@ -75,7 +75,7 @@ HTML example
 /*end*/
 
 /*JazzBlock ButtonX_teal*/
-.ButtonX_teal{
+.buttonX_teal{
   color: #88c6be;
   border-style: solid;
   border-color: #88c6be;
@@ -88,7 +88,7 @@ HTML example
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
 }
-.ButtonX_teal:hover{
+.buttonX_teal:hover{
   color: #00e6b8;
   border-style: solid;
   border-color: #00e6b8;
@@ -100,7 +100,7 @@ HTML example
   box-shadow: 0mm 0mm 4mm #00e6b8;
   cursor: pointer;
 }
-.ButtonX_teal:active{
+.buttonX_teal:active{
   color: #cecece;
   border-style: solid;
   border-color: #cecece;
@@ -113,6 +113,130 @@ HTML example
   cursor: pointer;
 }
 /*end*/
+
+/*JazzBlock buttonX_green*/
+.buttonX_green{
+  color: #33cc33;
+  border-style: solid;
+  border-color: #33cc33;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 0mm #33cc33;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonX_green:hover{
+  color: #99ff99;
+  border-style: solid;
+  border-color: #99ff99;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #99ff99;
+  cursor: pointer;
+}
+.buttonX_green:active{
+  color: #cecece;
+  border-style: solid;
+  border-color: #cecece;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #00e6b8;
+  cursor: pointer;
+}
+/*end*/
+
+
+/*JazzBlock buttonX_orange*/
+.buttonX_orange{
+  color: #FB542B;
+  border-style: solid;
+  border-color: #FB542B;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 0mm #FB542B;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonX_orange:hover{
+  color: #ff6600;
+  border-style: solid;
+  border-color: #ff6600;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #ff6600;
+  cursor: pointer;
+}
+.buttonX_orange:active{
+  color: #cecece;
+  border-style: solid;
+  border-color: #cecece;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #00e6b8;
+  cursor: pointer;
+}
+/*end*/
+
+/*JazzBlock buttonX_blue*/
+.buttonX_blue{
+  color: #003399;
+  border-style: solid;
+  border-color: #003399;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 0mm #003399;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonX_blue:hover{
+  color: #3377ff;
+  border-style: solid;
+  border-color: #3377ff;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #3377ff;
+  cursor: pointer;
+}
+.buttonX_blue:active{
+  color: #cecece;
+  border-style: solid;
+  border-color: #cecece;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #00e6b8;
+  cursor: pointer;
+}
+/*end*/
+
+
+
 
 
 
@@ -194,6 +318,46 @@ HTML example
 }
 /*end*/
 
+/*JazzBlock buttonY_green*/
+.buttonY_green{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #f0f0f0;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #33cc33;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonY_green:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #99ff99;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #99ff99;
+  cursor: pointer;
+}
+.buttonY_green:active{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #FB542B;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #FB542B;
+}
+/*end*/
+
+
+
 
 
 /*JazzBlock buttonZ*/
@@ -222,6 +386,36 @@ HTML example
   cursor: pointer;
 }
 /*end*/
+
+/*JazzBlock buttonZ_teal*/
+.buttonZ_teal{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #88c6be;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #88c6be;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonZ_teal:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #cecece;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 6mm #88c6be;
+  cursor: pointer;
+}
+/*end*/
+
+
+
 
 /*JazzBlock buttonAA*/
 .buttonAA{
