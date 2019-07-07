@@ -279,7 +279,7 @@ HTML example
 /*end*/
 
 /*JazzBlock ButtonY_teal*/
-.ButtonY_teal{
+.buttonY_teal{
   font-size: 5mm;
   font-family: monospace;
   color: #88c6be;
@@ -293,7 +293,7 @@ HTML example
 
 
 }
-.ButtonY_teal:hover{
+.buttonY_teal:hover{
   font-size: 5mm;
   font-family: monospace;
   color: #00e6b8;
@@ -305,7 +305,7 @@ HTML example
   box-shadow: 0mm 0mm 5mm #00e6b8;
   cursor: pointer;
 }
-.ButtonY_teal:active{
+.buttonY_teal:active{
   font-size: 5mm;
   font-family: monospace;
   color: #cecece;
