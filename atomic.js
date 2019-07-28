@@ -1,5 +1,5 @@
 //Atomic Core 1.5.7
-var r1 = "B" + Math.floor(Math.random() * 1001);
+var r1 = "b" + Math.floor(Math.random() * 1001);
 var r2 = "Y" + Math.floor(Math.random() * 101);
 var r3 = "k" + Math.floor(Math.random() * 1001);
 var r4 = "Q" + Math.floor(Math.random() * 101);
