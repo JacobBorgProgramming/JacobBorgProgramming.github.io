@@ -10,7 +10,7 @@ var a2 ="X"
 var r = Math.floor(Math.random() * 89);
 var q = Math.floor(Math.random() * 3600);
 var k = Math.floor(Math.random() * 36000);
-var mcc1 = Math.asinh(r+q+a2);
+var mcc1 = Math.asinh(r+q);
 var mcc2 = Math.trunc(mcc1)
 var mcc3 = Math.trunc(k)
 var rr1 = Math.floor(Math.random() * 33);
@@ -30,5 +30,5 @@ window.alert("cA1.5.8:    "+result + "-" + rsln1 + "-" + rr1 + '-' + mcc2 + mcc3
 }
 console.log('cA: 1.5.8')
 console.log('Your Atomic Password is:'+result + "-" + rsln1 + "-" + '-' + mcc2 + mcc3)
-document.getElementById("jsC1").innerHTML = result + "-" + rsln1 + "-" + '-' + mcc2 + mcc3;
+document.getElementById("jsC1").innerHTML = result + "-" + rsln1 + "-" + mcc2 + mcc3;
 document.getElementById("jsC2").innerHTML = "You can change this in your browser's settings.";
