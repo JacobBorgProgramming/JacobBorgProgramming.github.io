@@ -29,6 +29,11 @@ margin-bottom: 0mm;
 
 
 }
+a{
+  color: #9900ff;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
 #linkbt3{
   font-family: 'Montserrat', sans-serif;
   font-size: 7mm;
