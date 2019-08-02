@@ -9,47 +9,68 @@
 
 <url>
   <loc>https://jacobborgprogramming.github.io/</loc>
+  <lastmod>2019-08-01T19:02:06+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://jacobborgprogramming.github.io/index.html</loc>
+  <loc>https://jacobborgprogramming.github.io/indexH.html</loc>
+  <lastmod>2019-08-01T19:02:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jacobborgprogramming.github.io/atomic.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jacobborgprogramming.github.io/news.html</loc>
+  <loc>https://jacobborgprogramming.github.io/miner.html</loc>
+  <lastmod>2019-08-01T19:02:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jacobborgprogramming.github.io/privacy.html</loc>
+  <lastmod>2019-08-01T19:02:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jacobborgprogramming.github.io/software.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jacobborgprogramming.github.io/home-private.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jacobborgprogramming.github.io/home-private</loc>
+  <loc>https://jacobborgprogramming.github.io/sites.html</loc>
+  <lastmod>2019-08-01T19:02:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://jacobborgprogramming.github.io/software-private.html</loc>
+  <loc>https://jacobborgprogramming.github.io/projectsList.html</loc>
+  <lastmod>2019-08-01T19:02:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://jacobborgprogramming.github.io/news-private.html</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jacobborgprogramming.github.io/a13a.html</loc>
+  <loc>https://jacobborgprogramming.github.io/atomic.html</loc>
+  <lastmod>2019-08-01T19:02:06+00:00</lastmod>
   <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/JazzBlocksLibrary/index.html</loc>
+  <lastmod>2019-07-31T19:10:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/JazzBlocksLibrary/source.html</loc>
+  <lastmod>2019-07-31T19:10:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/JazzBlocksLibrary/social.html</loc>
+  <lastmod>2019-07-31T19:10:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/JazzBlocksLibrary/sMiner.html</loc>
+  <lastmod>2019-07-31T19:10:30+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/index.html</loc>
+  <lastmod>2019-08-01T19:02:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://jacobborgprogramming.github.io/JazzBlocksLibrary/docs.html</loc>
+  <lastmod>2019-07-31T19:10:30+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 
 
