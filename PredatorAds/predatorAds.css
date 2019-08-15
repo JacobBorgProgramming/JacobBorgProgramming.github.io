@@ -55,7 +55,7 @@
 
 .PredImgHead0001{
   font-size: 9mm;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
   padding-top: 10mm;
 }
