@@ -30,7 +30,7 @@ margin-bottom: 0mm;
 
 }
 a{
-  color: #9900ff;
+  color: #17bf63;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
 }
@@ -39,7 +39,7 @@ a{
   font-size: 7mm;
   color: #e6e6e6;
 border-style: solid;
-border-color: #0073e6;
+border-color: #17bf63;
 border-width: 2px;
 border-radius: 40px;
 background-color: #003366;
@@ -54,15 +54,15 @@ background-color: #003366;
   font-family: 'Montserrat', sans-serif;
 border-style: solid;
 color: black;
-border-color: #0073e6;
+border-color: #17bf63;
 border-width: 2px;
 border-radius: 40px;
-background-color: #0073e6;
+background-color: #17bf63;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
   width: 30mm;
   height: 25mm;
-  box-shadow: 0px 0px 5mm #9900ff;
+  box-shadow: 0px 0px 5mm #17bf63;
   cursor: pointer;
 }
 #linkbt3:active{
@@ -183,7 +183,7 @@ background-color: #9900ff;
   font-size: 5mm;
   color: #e6e6e6;
 border-style: solid;
-border-color: #9900ff;
+border-color: #17bf63;
 border-width: 2px;
 border-radius: 40px;
 background-color: #003366;
@@ -197,16 +197,16 @@ opacity: 50%;
 #linkbt6:hover{
   font-family: 'Montserrat', sans-serif;
 border-style: solid;
-color: #e6e6e6;
-border-color: #9900ff;
+color: black;
+border-color: #17bf63;
 border-width: 2px;
 border-radius: 40px;
-background-color: #9900ff;
+background-color: #17bf63;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
   width: 45mm;
   height: 20mm;
-  box-shadow: 0px 0px 5mm #9900ff;
+  box-shadow: 0px 0px 5mm #17bf63;
   cursor: pointer;
 }
 #linkbt6:active{
