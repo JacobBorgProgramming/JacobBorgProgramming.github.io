@@ -314,3 +314,9 @@ column-count: 1
   overflow: scroll;
   margin: 0mm;
 }
+.search_bar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
