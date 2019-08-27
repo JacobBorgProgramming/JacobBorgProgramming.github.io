@@ -47,8 +47,37 @@
 <center>
     <h1 style="text-align: center; color: #e6e6e6; padding-bottom: 10mm; padding-left: 10mm; padding-right:10mm;">Search the web with privacy.</h1>
 <div class="index">
-<embed src="./search/search_index_SoCal.html" width="100%" height="300mm">
+
+  <div class="search-container">
+     <form method="GET" action="{{site.baseurl}}/search-results.html">
+       <input type="text" id="search" class="search-input form-control" name="query">
+       <span class="search-span glyphicon glyphicon-search"></span>
+     </form>
   </div>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  </div>
+  <script>
+$("document").ready(function(){
+$("#search").autocomplete({
+   source: siteIndex,
+   minLength: 2,
+   select: function(event, ui) {
+          window.location.href =window.location.origin+'{{site.baseurl}}'+'/'+ui.item.url.replace('.md','.html');
+   },
+   open: function(event, ui) {
+        $(".ui-autocomplete").css("z-index", 10000);
+        $(".ui-autocomplete").addClass("dropdown-menu search-results");
+    }
+
+})
+.autocomplete( "instance" )._renderItem = function( ul, item ) {
+      return $( "<li>" )
+        .append( "<div>" + item.value + "</div>" )
+        .appendTo( ul );
+    };
+
+});
+</script>
 </center>
 
 
