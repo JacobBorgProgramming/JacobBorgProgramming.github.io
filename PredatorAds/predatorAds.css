@@ -37,12 +37,13 @@
   transition-duration: 0.3s;
 }
 .predAdButton1:hover{
-  background-color: #333333;
+  background-color: #004080;
   font-size: 11mm;
   color: #cecece;
   border-width: 1mm;
   border-color: #004080;
   border-radius: 3mm;
+  cursor: pointer;
 }
 .predAdButton1:active{
   background-color: #333333;
