@@ -26,9 +26,9 @@ var rsln2 = rrr1.length
 var sc = screen.availHeight+screen.availWidth + rr1
 var rrr2= sc + rsln1
 function cA1N(){
-window.alert("cA1.5.8:    "+result + "-" + rsln1 + "-" + rr1 + '-' + mcc2 + mcc3);
+window.alert("cA1.5.9:    "+result + "-" + rsln1 + '-' + mcc2 + rr1 + '-' + sc);
 }
-console.log('cA: 1.5.8')
-console.log('Your Atomic Password is:'+result + "-" + rsln1 + "-" + '-' + mcc2 + mcc3)
-document.getElementById("jsC1").innerHTML = result + "-" + rsln1 + "-" + mcc2 + mcc3;
+console.log('cA: 1.5.9')
+console.log('Your Atomic Password is:'+result + "-" + rsln1 + '-' + mcc2 + rr1 + '-' + sc)
+document.getElementById("jsC1").innerHTML = result + "-" + rsln1 + '-' + mcc2 + rr1 + '-' + sc;
 document.getElementById("jsC2").innerHTML = "You can change this in your browser's settings.";
