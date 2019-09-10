@@ -2,91 +2,109 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jacobborgprogramming.github.io/</loc>
-    <lastmod>2019-08-24</lastmod>
+    <lastmod>2019-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://jacobborgprogramming.github.io/miner.html</loc>
-    <lastmod>2019-08-24</lastmod>
+    <loc>https://jacobborgprogramming.github.io/cl_privacy.html</loc>
+    <lastmod>2019-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jacobborgprogramming.github.io/privacy.html</loc>
-    <lastmod>2019-08-24</lastmod>
+    <loc>https://jacobborgprogramming.github.io/home.html</loc>
+    <lastmod>2019-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jacobborgprogramming.github.io/index.html</loc>
+    <lastmod>2019-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://jacobborgprogramming.github.io/indexH.html</loc>
-    <lastmod>2019-08-24</lastmod>
+    <lastmod>2019-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jacobborgprogramming.github.io/sites.html</loc>
-    <lastmod>2019-08-24</lastmod>
+    <loc>https://jacobborgprogramming.github.io/values.html</loc>
+    <lastmod>2019-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jacobborgprogramming.github.io/projectsList.html</loc>
-    <lastmod>2019-08-24</lastmod>
+    <loc>https://jacobborgprogramming.github.io/cl_projectsList.html</loc>
+    <lastmod>2019-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jacobborgprogramming.github.io/search.html</loc>
-    <lastmod>2019-08-24</lastmod>
+    <loc>https://jacobborgprogramming.github.io/projects.html</loc>
+    <lastmod>2019-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jacobborgprogramming.github.io/cl_sites.html</loc>
+    <lastmod>2019-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jacobborgprogramming.github.io/privacy.html</loc>
+    <lastmod>2019-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jacobborgprogramming.github.io/cl_search.html</loc>
+    <lastmod>2019-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://jacobborgprogramming.github.io/atomic.html</loc>
-    <lastmod>2019-08-24</lastmod>
+    <lastmod>2019-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://jacobborgprogramming.github.io/JazzBlocksLibrary/index.html</loc>
-    <lastmod>2019-08-21</lastmod>
+    <lastmod>2019-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jacobborgprogramming.github.io/search_BETA.html</loc>
-    <lastmod>2019-08-24</lastmod>
+    <loc>https://jacobborgprogramming.github.io/cl_atomic.html</loc>
+    <lastmod>2019-09-10</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://jacobborgprogramming.github.io/JazzBlocksLibrary/sMiner.html</loc>
-    <lastmod>2019-08-21</lastmod>
+    <lastmod>2019-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://jacobborgprogramming.github.io/JazzBlocksLibrary/source.html</loc>
-    <lastmod>2019-08-21</lastmod>
+    <lastmod>2019-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://jacobborgprogramming.github.io/JazzBlocksLibrary/social.html</loc>
-    <lastmod>2019-08-21</lastmod>
+    <lastmod>2019-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jacobborgprogramming.github.io/index.html</loc>
-    <lastmod>2019-08-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://jacobborgprogramming.github.io/JazzBlocksLibrary/docs.html</loc>
-    <lastmod>2019-08-21</lastmod>
+    <lastmod>2019-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
