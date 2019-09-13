@@ -3,9 +3,9 @@
 .alert {
   padding: 20px;
   background-color: black; /* Black */
-  color: white;
   margin-bottom: 15px;
-  color: #cecece;
+
+
 }
 
 /* The close button */
@@ -60,6 +60,14 @@
   -webkit-text-stroke-color: black;
   padding-top: 10mm;
 }
+.PredImgHead0002{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 9mm;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  padding-top: 10mm;
+  color: #1a1a1a;
+}
 
 #PredAd0001{
 /*
@@ -75,7 +83,9 @@
 */
 
 }
-
+#PredAd0002{
+  background-position: bottom;
+}
 /*
 <link rel="prefetch" href="./PredatorAds/predatorAds.css">
 <link rel="stylesheet" href="./PredatorAds/predatorAds.css">
