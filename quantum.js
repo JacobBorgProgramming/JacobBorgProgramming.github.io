@@ -11,7 +11,7 @@ if (navigator.cookieEnabled === false){
   document.getElementById("jsC2").innerHTML = "Your cookies are active. You can change this in your browser's settings.";
 }
 if (navigator.cookieEnabled === true){
-  document.getElementById("jsC1").innerHTML = (q1 + q2 + q3 + q4 + q5);
+  document.getElementById("jsC1").innerHTML = (q3 + q2 + q1 + q5 + q4);
   document.getElementById("jsC2").innerHTML = "";
   console.log('Cookies are enabled')
 }
