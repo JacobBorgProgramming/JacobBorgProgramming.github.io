@@ -1,4 +1,4 @@
-//Atomic Core 1.5.8
+//Atomic Core 1.6.0
 var r1 = "b" + Math.floor(Math.random() * 1001);
 var r2 = "Y" + Math.floor(Math.random() * 101);
 var r3 = "k" + Math.floor(Math.random() * 1001);
