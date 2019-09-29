@@ -188,8 +188,45 @@ header{
   color: black;
 }
 .con1{
+  background-image: url(./media/network2.jpg);
+  background-position: center;
   margin-top:70mm;
   width: 70%;
   border-radius: 1mm;
   margin-bottom: 13mm;
+  -webkit-transition-duration: 1.5s; /* Safari */
+  transition-duration: 1.4s;
+}.con1:hover{
+
+  background-position: top;
+
+}
+.con2{
+  background-image: url(./media/atomic.jpg);
+  background-position: center;
+  margin-top:70mm;
+  width: 70%;
+  border-radius: 1mm;
+  margin-bottom: 13mm;
+  -webkit-transition-duration: 1.5s; /* Safari */
+  transition-duration: 1.4s;
+}.con2:hover{
+
+  background-position: top;
+
+}
+
+.con3{
+  background-image: url(./media/data.jpg);
+  background-position: center;
+  margin-top:70mm;
+  width: 70%;
+  border-radius: 1mm;
+  margin-bottom: 13mm;
+  -webkit-transition-duration: 1.5s; /* Safari */
+  transition-duration: 1.4s;
+}.con3:hover{
+
+  background-position: top;
+
 }
