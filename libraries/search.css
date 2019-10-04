@@ -36,8 +36,8 @@ overflow-x:hidden;
 }
 
 .index{
-  height: 100mm;
-  overflow: scroll;
+  /*height: 100mm;*/
+  /*overflow: scroll;*/
   margin: 0mm;
 }
 .search_bar{
