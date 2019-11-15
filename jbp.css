@@ -9,7 +9,6 @@ overflow-y: scroll;
 html {
   background-color: #001a33;
   scroll-behavior: smooth;
-  background-image: url(./media/background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

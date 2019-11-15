@@ -1,0 +1,47 @@
+#linkbt3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7mm;
+  color: #e6e6e6;
+border-style: solid;
+border-color: #17bf63;
+border-width: 2px;
+border-radius: 40px;
+background-color: #003366;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 30mm;
+  height: 25mm;
+  box-shadow: 0px 0px 5mm #003366;
+  top: 5mm;
+}
+#linkbt3:hover{
+  font-family: 'Montserrat', sans-serif;
+border-style: solid;
+color: black;
+border-color: #17bf63;
+border-width: 2px;
+border-radius: 40px;
+background-color: #17bf63;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 30mm;
+  height: 25mm;
+  box-shadow: 0px 0px 5mm #17bf63;
+  cursor: pointer;
+}
+#linkbt3:active{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7mm;
+border-style: solid;
+border-color: #0073e6;
+border-width: 2px;
+border-radius: 40px;
+background-color: #9900ff;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 30mm;
+  height: 25mm;
+  box-shadow: 0px 0px 5mm #0073e6;
+  top: 5mm;
+  cursor: pointer;
+}
