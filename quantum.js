@@ -13,6 +13,6 @@ if (navigator.cookieEnabled === false){
 }
 if (navigator.cookieEnabled === true){
   document.getElementById("jsC1").innerHTML = (q3 + q2 + q1 + q5 + q4 + q6);
-  document.getElementById("jsC2").innerHTML = "";
+  document.getElementById("jsC2").innerHTML = "Your cookies are deactivated.";
   console.log('Cookies are enabled')
 }
