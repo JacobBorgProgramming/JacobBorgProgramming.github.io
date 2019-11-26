@@ -1,0 +1,37 @@
+<!--JavaScript Based Cloud Operating System-->
+<!--The original cloud stored, client-side processed, private, cloud OS-->
+<!--JazzBlocks required code-->
+<link rel="preload" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocks.css">
+<link rel="preload" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
+<!--end-->
+<link rel="stylesheet" href="./os.css">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js "></script>
+<header>
+<h1 class="pc_l">Home</h1>
+<div class="user" contentEditable="true">User name</div>
+<script>
+  $(function() {
+    // Set some variables
+    var ls = window.localStorage;
+
+    // Check for local data, then apply
+    if (ls.getItem("data")) {
+      $(".notepad").text(ls.getItem("data"));
+    }
+
+    // Save text
+    $(".user").blur(function() {
+      ls.setItem("data", $(".user").text());
+    });
+  });
+</script>
+</header>
+<body class="pc_m">
+
+</body>
+<footer>
+
+</footer>
