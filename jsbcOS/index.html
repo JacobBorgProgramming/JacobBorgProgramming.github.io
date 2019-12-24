@@ -1,4 +1,4 @@
-<!--JavaScript Based Cloud Operating System-->
+<html><!--JavaScript Based Cloud Operating System-->
 <!--The original cloud stored, client-side processed, private, cloud OS-->
 <!--JazzBlocks required code-->
 <link rel="preload" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
@@ -11,7 +11,8 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js "></script>
 <header>
 <h1 class="pc_l">Home</h1>
-<div class="user" contentEditable="true">User name</div>
+<div style="margin-bottom: 3mm;" class="user" contentEditable="true">User name</div>
+<!--<button class="buttonY" style="" id="button1" onclick="show1()">File</button><button class="buttonY" style="display: none" id="button2" onclick="hide1()">File</button>-->
 <script>
   $(function() {
     // Set some variables
@@ -27,11 +28,34 @@
       ls.setItem("data", $(".user").text());
     });
   });
+
+
+
+  function show1(){
+     document.getElementById("wapi1").style = "display: block;";
+     document.getElementById("button1").style = "display: none;";
+     document.getElementById("button2").style = "display: block;";
+  }
+  function hide1(){
+     document.getElementById("wapi1").style = "display: none;";
+     document.getElementById("button1").style = "display: block;";
+     document.getElementById("button2").style = "display: none;";
+  }
 </script>
 </header>
 <body class="pc_m">
+  <div id="wapi1" style="display: none;">
+
+  <p class="pc_m">File</p>
+  <button class="buttonY">print</button>
+
+
+  </div>
+<a href="https://dev.jacobborgprogramming.net/atomic.html" target="_blank"><img src="https://dev.jacobborgprogramming.net/media/atomiclogo.png" width="100mm" alt=""></a>
 
 </body>
 <footer>
 
 </footer>
+
+</html>
