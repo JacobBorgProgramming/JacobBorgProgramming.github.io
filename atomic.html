@@ -27,16 +27,23 @@
     <div style="background-color: #262626; box-shadow: 0mm 0mm 4mm #1a1a1a;">
 
       <p style="text-align: center; padding-top:1mm;" class="pc_l">Atomic Password Generator</p>
-      <p style="text-align: center; padding-top:1mm;" class="pc_s">Fallout: 1.0.1</p>
-      <p style="font-weight: normal; text-align:center; color:white;" class="pc_m_u">Your password is:</p>
-      <div id="jsC1" style="text-align: center; color:#cecece;" class="pc_m_u"></div>
-      <div id="jsC2" style="text-align: center; color:#cecece;" class="pc_s"></div>
+      <p style="text-align: center; padding-top:1mm;" class="pc_s">Fallout: 1.0.2</p>
 
+
+      <iframe id="iframe" src="./fallout.html" width="40%" height="50%"></iframe>
+<center><button class="buttonX_green" onclick="l0adA1()">Generate Password</button></center>
 
     <script id="genID" type="text/javascript" src="./A_fallout.js">
     /*Remote script*/
     </script>
-      <p style="font-weight: normal; text-align:center; color:white;" class="pc_s">refresh the page to reset the password.</p>
+
+    <script type="text/javascript">
+      function l0adA1() {
+        var int = Math.floor(Math.random() * 4);
+        document.getElementById("iframe").src = "./fallout"+ int +".html";
+      }
+    </script>
+
   <p style="padding:2mm;"></p>
   </div></div>
 
