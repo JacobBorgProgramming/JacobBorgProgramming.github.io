@@ -52,10 +52,10 @@ var f4 = Math.round(q12*q13/3.14)
 if (navigator.cookieEnabled === false){
   console.log('Cookies are disabled')
   document.getElementById("jsC1").innerHTML = (q1+f3+c1+f1+f2+c2+f4+a3);
-  document.getElementById("jsC2").innerHTML = "Your cookies are active. You can change this in your browser's settings.";
+
 }
 if (navigator.cookieEnabled === true){
   document.getElementById("jsC1").innerHTML = (q1+f3+c1+f1+c2+f2+a3+f4);
-  document.getElementById("jsC2").innerHTML = "Your cookies are deactivated.";
+
   console.log('Cookies are enabled')
 }
