@@ -40,7 +40,7 @@ var q14 = Math.floor(Math.random() * 180);
 
 var m1 = Math.tan(q13);
 
-var div = '#f@'
+var div = '$6K'
 
 var f1 = Math.round(q11/q2);
 var f2 = Math.ceil(m1);
