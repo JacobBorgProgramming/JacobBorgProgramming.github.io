@@ -2,80 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dev.jacobborgprogramming.net/</loc>
-    <lastmod>2019-09-17</lastmod>
+    <lastmod>2020-01-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dev.jacobborgprogramming.net/index.html</loc>
-    <lastmod>2019-09-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://dev.jacobborgprogramming.net/indexH.html</loc>
-    <lastmod>2019-09-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://dev.jacobborgprogramming.net/cl_privacy.html</loc>
-    <lastmod>2019-09-17</lastmod>
+    <loc>https://dev.jacobborgprogramming.net/privacy.html</loc>
+    <lastmod>2020-01-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://dev.jacobborgprogramming.net/home.html</loc>
-    <lastmod>2019-09-17</lastmod>
+    <lastmod>2020-01-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dev.jacobborgprogramming.net/cl_sites.html</loc>
-    <lastmod>2019-09-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dev.jacobborgprogramming.net/values.html</loc>
-    <lastmod>2019-09-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dev.jacobborgprogramming.net/cl_projectsList.html</loc>
-    <lastmod>2019-09-17</lastmod>
+    <loc>https://dev.jacobborgprogramming.net/ads.html</loc>
+    <lastmod>2020-01-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dev.jacobborgprogramming.net/projects.html</loc>
-    <lastmod>2019-09-17</lastmod>
+    <lastmod>2020-01-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dev.jacobborgprogramming.net/privacy.html</loc>
-    <lastmod>2019-09-17</lastmod>
+    <loc>https://dev.jacobborgprogramming.net/research.html</loc>
+    <lastmod>2020-01-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dev.jacobborgprogramming.net/search.html</loc>
-    <lastmod>2019-09-17</lastmod>
+    <loc>https://dev.jacobborgprogramming.net/about.html</loc>
+    <lastmod>2020-01-29</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dev.jacobborgprogramming.net/cl_atomic.html</loc>
-    <lastmod>2019-09-17</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://dev.jacobborgprogramming.net/JazzBlocksLibrary/index.html</loc>
+    <lastmod>2019-10-12</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dev.jacobborgprogramming.net/atomic.html</loc>
-    <lastmod>2019-09-17</lastmod>
+    <lastmod>2020-01-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dev.jacobborgprogramming.net/JazzBlocksLibrary/source.html</loc>
+    <lastmod>2019-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dev.jacobborgprogramming.net/JazzBlocksLibrary/docs.html</loc>
+    <lastmod>2019-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
