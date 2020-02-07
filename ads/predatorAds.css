@@ -1,0 +1,101 @@
+/*Predator Ad Platform*/
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: black; /* Black */
+  margin-bottom: 15px;
+
+
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 20mm;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: #004080;
+}
+
+.predAdButton1{
+  background-color: #333333;
+  font-size: 11mm;
+  color: #cecece;
+  border-width: 1mm;
+  border-color: #333333;
+  border-radius: 10mm;
+  margin-top: 10mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.predAdButton1:hover{
+  background-color: #004080;
+  font-size: 11mm;
+  color: #cecece;
+  border-width: 1mm;
+  border-color: #004080;
+  border-radius: 3mm;
+  cursor: pointer;
+}
+.predAdButton1:active{
+  background-color: #333333;
+  font-size: 11mm;
+  color: #cecece;
+  border-width: 1mm;
+  border-color: #cecece;
+  border-radius: 3mm;
+}
+
+.PredImgHead0001{
+  font-size: 9mm;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  padding-top: 10mm;
+}
+.PredImgHead0002{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 9mm;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  padding-top: 10mm;
+  color: #1a1a1a;
+}
+
+#PredAd0001{
+/*
+<div title="PredatorAd0001" id="PredAd0001">
+<link rel="prefetch" href="./PredatorAds/predatorAds.css">
+<link rel="stylesheet" href="./PredatorAds/predatorAds.css">
+<div class="alert" style="background-image: url(./PredatorAds/camera.jpg);">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <center class="PredImgHead0001">Media production with friendly service and great quality.</center>
+  <p style="text-align: center;"><a href="https://room118productions.blogspot.com/" target="_blank"><button class="predAdButton1">Learn More</button></a></p>
+</div>
+</div>
+*/
+
+}
+#PredAd0002{
+  background-position: bottom;
+}
+#PredAd0003{
+  background-position: top;
+}
+
+/*
+<link rel="prefetch" href="./PredatorAds/predatorAds.css">
+<link rel="stylesheet" href="./PredatorAds/predatorAds.css">
+<div class="alert" style="background-image: url(./PredatorAds/camera.jpg);">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <center class="PredImgHead0001">Media production with friendly service and great quality.</center>
+  <p style="text-align: center;"><a href="https://room118productions.blogspot.com/" target="_blank"><button class="buttonY">Let's Go!</button></a></p>
+</div>
+*/
