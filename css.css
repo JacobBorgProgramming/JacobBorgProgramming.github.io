@@ -45,3 +45,49 @@ background-color: #9900ff;
   top: 5mm;
   cursor: pointer;
 }
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: #ff9933; text-shadow: 0 0 10px #0033cc;}
+  to {background-color: yellow; text-shadow: 0 0 10px #4d79ff;}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: #ff9933;}
+  to {background-color: yellow;}
+}
+/*end*/
+.fruity1{
+
+  background: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100px;
+  font-size: 0mm;
+  padding-left: 20mm;
+  padding-right: 20mm;
+  padding-top: 3mm;
+  padding-bottom: 3mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.fruity1:hover{
+  background: rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+  font-size: 10mm;
+  padding-left: 20mm;
+  padding-right: 20mm;
+  padding-top: 4mm;
+  padding-bottom: 4mm;
+  overflow: hidden;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+#tag{
+  height: 30mm;
+}
