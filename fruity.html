@@ -31,23 +31,48 @@
       <p style="font-size: 25mm; text-align: center; padding-top:1mm; font-family: 'Oleo Script', cursive; 	-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: #cecece;">Fruity</p>
 </div>
       <p style="text-align: center; padding-top:0mm; font-family: 'Oleo Script', cursive;font-size: 10mm;" >The browser for ministries.</p>
-<center><div class="fruity1">
-<p style="font-family: 'Oleo Script', cursive;">Fruity is ministry-oriented.</p>
-<p style="font-family: 'Oleo Script', cursive;">Our browser is optimized for multiple online ministry resources!</p>
-<img id="tag" src="./icons/bible.png" alt="Privacy Badge">
+
+
+<a class="fruity2" onclick="show1()" id="hide1"><img id="BibleImg" style="height: 30mm;" src="./icons/bible.png" alt="Bible"></a>
+<center><div id="show1" class="fruity2" style="visibility: hidden; font-size: 0mm; background: rgba(0, 0, 0, 0.0);">
+<a onclick="hide1()"><p style="font-family: 'Oleo Script', cursive;">Fruity is ministry-oriented.</p>
+<p style="font-family: 'Oleo Script', cursive;">Our browser is optimized for multiple online ministry resources!</p></a>
 </div></center>
 <p style="padding:2mm;"></p>
-<center><div class="fruity1">
-<p style="font-family: 'Oleo Script', cursive;">Fruity is designed for being social.</p>
-<p style="font-family: 'Oleo Script', cursive;">We have designed Fruity to work smoothly on social media!</p>
-<img id="tag" src="./icons/social.png" alt="Privacy Badge">
+
+
+
+<a class="fruity2" onclick="show4()" id="hide4"><img id="browserImg" style="height: 30mm;" src="./icons/web.png" alt="Browser"></a>
+<center><div id="show4" class="fruity2" style="visibility: hidden; font-size: 0mm; background: rgba(0, 0, 0, 0.0);">
+<a onclick="hide4()"><p style="font-family: 'Oleo Script', cursive;">Fruity is light weight.</p>
+<p style="font-family: 'Oleo Script', cursive;">Fruity is designed to use as little storage and power as possible!</p></a>
+</div></center>
+<p style="padding:2mm;"></p>
+
+
+
+<a class="fruity2" onclick="show2()" id="hide2"><img id="socialImg" style="height: 30mm;" src="./icons/social.png" alt="Privacy Badge"></a>
+<center><div id="show2" class="fruity2" style="visibility: hidden; font-size: 0mm; background: rgba(0, 0, 0, 0.0);">
+<a onclick="hide2()"><p style="font-family: 'Oleo Script', cursive;">Fruity is designed for being social.</p>
+<p style="font-family: 'Oleo Script', cursive;">We have designed Fruity to work smoothly on social media!</p></a>
+</div></center>
+<p style="padding:2mm;"></p>
+
+<a class="fruity2" onclick="show5()" id="hide5"><img id="showImg" style="height: 30mm;" src="./icons/slideshow.png" alt="Slideshow"></a>
+<center><div id="show5" class="fruity2" style="visibility: hidden; font-size: 0mm; background: rgba(0, 0, 0, 0.0);">
+<a onclick="hide5()"><p style="font-family: 'Oleo Script', cursive;">Fruity is presentable.</p>
+<p style="font-family: 'Oleo Script', cursive;">We have built a light weight presentation tool into Fruity!</p></a>
+</div></center>
+<p style="padding:2mm;"></p>
+
+
+<a class="fruity2" onclick="show3()" id="hide3"><img id="privacyImg" style="height: 30mm;" src="./icons/privacy.png" alt="Privacy Badge"></a>
+<center><div id="show3" class="fruity2" style="visibility: hidden; font-size: 0mm; background: rgba(0, 0, 0, 0.0);">
+<a onclick="hide3()"><p style="font-family: 'Oleo Script', cursive;">Fruity respects your privacy.</p>
+<p style="font-family: 'Oleo Script', cursive;">We do not collect any data!</p></a>
 </div></center>
 <p style="padding:2mm;">
-<center><div class="fruity1">
-<p style="font-family: 'Oleo Script', cursive;">Fruity respects your privacy.</p>
-<p style="font-family: 'Oleo Script', cursive;">We do not collect any data!</p>
-<img id="tag" src="./icons/privacy.png" alt="Privacy Badge">
-</div></center>
+
 
 
       <p style="text-align: center; padding-top:1mm;" class="pn_s">MacOS 10.15 or later (Beta 1.4)</p>
@@ -56,7 +81,88 @@
       <p style="text-align: center; padding-top:1mm;" class="pn_s">MacOS 10.12 or later (Beta 1.1)</p>
       <a href="./fruity/FruityClassic.zip" download><img src="./icons/fruityDownload.png" width="230mm"></a>
 <p style="text-align: center; padding-top:1mm;" class="pn_l"></p>
+<script>
+function show1(){
+  document.getElementById("show1").style = ("visibility: visible; font-size: 10mm; background: rgba(0, 0, 0, 0.3);");
+  document.getElementById("BibleImg").style = ("height: 0mm;");
+  document.getElementById("hide1").style = ("visibility: hidden;");
+}
+function hide1(){
+  document.getElementById("show1").style = ("visibility: hidden; font-size: 0mm;");
+  document.getElementById("BibleImg").style = ("height: 30mm;");
+  document.getElementById("hide1").style = ("visibility: visible;");
+}
 
+
+
+
+function show2(){
+  document.getElementById("show2").style = ("visibility: visible; font-size: 10mm; background: rgba(0, 0, 0, 0.3);");
+  document.getElementById("socialImg").style = ("height: 0mm;");
+  document.getElementById("hide2").style = ("visibility: hidden;");
+}
+function hide2(){
+  document.getElementById("show2").style = ("visibility: hidden; font-size: 0mm;");
+  document.getElementById("socialImg").style = ("height: 30mm;");
+  document.getElementById("hide2").style = ("visibility: visible;");
+}
+
+
+function show3(){
+  document.getElementById("show3").style = ("visibility: visible; font-size: 10mm; background: rgba(0, 0, 0, 0.3);");
+  document.getElementById("privacyImg").style = ("height: 0mm;");
+  document.getElementById("hide3").style = ("visibility: hidden;");
+}
+function hide3(){
+  document.getElementById("show3").style = ("visibility: hidden; font-size: 0mm;");
+  document.getElementById("privacyImg").style = ("height: 30mm;");
+  document.getElementById("hide3").style = ("visibility: visible;");
+}
+
+
+
+function show4(){
+  document.getElementById("show4").style = ("visibility: visible; font-size: 10mm; background: rgba(0, 0, 0, 0.3);");
+  document.getElementById("browserImg").style = ("height: 0mm;");
+  document.getElementById("hide4").style = ("visibility: hidden;");
+}
+function hide4(){
+  document.getElementById("show4").style = ("visibility: hidden; font-size: 0mm;");
+  document.getElementById("browserImg").style = ("height: 30mm;");
+  document.getElementById("hide4").style = ("visibility: visible;");
+}
+
+
+
+function show5(){
+  document.getElementById("show5").style = ("visibility: visible; font-size: 10mm; background: rgba(0, 0, 0, 0.3);");
+  document.getElementById("showImg").style = ("height: 0mm;");
+  document.getElementById("hide5").style = ("visibility: hidden;");
+}
+function hide5(){
+  document.getElementById("show5").style = ("visibility: hidden; font-size: 0mm;");
+  document.getElementById("showImg").style = ("height: 30mm;");
+  document.getElementById("hide5").style = ("visibility: visible;");
+}
+
+
+
+function disableselect(e) {
+  return false
+}
+
+function reEnable() {
+  return true
+}
+
+document.onselectstart = new Function ("return false")
+
+if (window.sidebar) {
+  document.onmousedown = disableselect
+  document.onclick = reEnable
+}
+
+</script>
   <p style="padding:10mm;"></p>
 
   <a href="./fruityabout.html"><button class="buttonX_green">About</button></a>

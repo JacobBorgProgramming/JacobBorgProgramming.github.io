@@ -91,3 +91,9 @@ background-color: #9900ff;
 #tag{
   height: 30mm;
 }
+.fruity2{
+cursor: pointer;
+}
+.fruity2:active{
+cursor: grabbing;
+}
