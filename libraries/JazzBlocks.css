@@ -1,22 +1,25 @@
 /*JazzBlocks.css Library*/
 /*JacobBorgProgramming*/
 /*https://jacobborgprogramming.github.io/index.html*/
+/*https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css*/
 
-/*install JazzBlocks into your website by adding this file to its sourcecode folder and adding
+/*<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">*/
+/*<link rel="stylesheet" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css">*/
+
+/*install JazzBlocks into your website by adding
 <!--JazzBlocks required code-->
-<link rel="preload" href="./libraries/JazzBlocks.css" as="style">
-<link rel="stylesheet" href="./libraries/JazzBlocks.css">
-<link rel="preload" href="./libraries/JazzBlocksFunctions.js" as="script">
-<link rel="preload" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" as="style">
-<link rel="preload" href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" as="style">
-<link rel="preload" href="https://fonts.googleapis.com/css?family=Literata&display=swap" as="style">
-<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css">
+<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
 <!--end-->
+to your source
  */
 
 
+
+@import url('https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap');
 /*JazzBlock bubbleAlertNews*/
 /*Numeric bubble for alerts (Great for alerting the user of new blog posts)*/
 /*
@@ -44,6 +47,405 @@ HTML example
             user-select: none;
 }
 /*end*/
+
+.buttonQ1{
+  margin-left:15mm;
+  margin-right:15mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: white;
+  background-color: #1a1a1a;
+  color: white;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  box-shadow: 0mm 0mm 1mm white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 40mm;
+}
+.buttonQ1:hover{
+  margin-left:5mm;
+  margin-right:5mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: white;
+  background-color: #1a1a1a;
+  color: white;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  width: 60mm;
+  box-shadow: 0mm 0mm 3mm white;
+  cursor: pointer;
+}
+.buttonQ1_red{
+  margin-left:15mm;
+  margin-right:15mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: red;
+  background-color: #1a1a1a;
+  color: red;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  box-shadow: 0mm 0mm 1mm red;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 40mm;
+}
+.buttonQ1_red:hover{
+  margin-left:5mm;
+  margin-right:5mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: red;
+  background-color: #1a1a1a;
+  color: red;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  width: 60mm;
+  box-shadow: 0mm 0mm 3mm red;
+  cursor: pointer;
+}
+.buttonQ1_yellow{
+  margin-left:15mm;
+  margin-right:15mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: yellow;
+  background-color: #1a1a1a;
+  color: yellow;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  box-shadow: 0mm 0mm 1mm yellow;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 40mm;
+}
+.buttonQ1_yellow:hover{
+  margin-left:5mm;
+  margin-right:5mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: yellow;
+  background-color: #1a1a1a;
+  color: yellow;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  width: 60mm;
+  box-shadow: 0mm 0mm 3mm yellow;
+  cursor: pointer;
+}
+.buttonQ1_pink{
+  margin-left:15mm;
+  margin-right:15mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: pink;
+  background-color: #1a1a1a;
+  color: pink;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  box-shadow: 0mm 0mm 1mm pink;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 40mm;
+}
+.buttonQ1_pink:hover{
+  margin-left:5mm;
+  margin-right:5mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: pink;
+  background-color: #1a1a1a;
+  color: pink;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  width: 60mm;
+  box-shadow: 0mm 0mm 3mm pink;
+  cursor: pointer;
+}
+
+
+.buttonQ1_noir{
+  margin-left:15mm;
+  margin-right:15mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: #d9d9d9;
+  background-color: #1a1a00;
+  color: #d9d9d9;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  box-shadow: 0mm 0mm 1mm #d9d9d9;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 40mm;
+}
+.buttonQ1_noir:hover{
+  margin-left:5mm;
+  margin-right:5mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: #d9d9d9;
+  background-color: #1a1a00;
+  color: #d9d9d9;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  width: 60mm;
+  box-shadow: 0mm 0mm 3mm #d9d9d9;
+  cursor: pointer;
+}
+.buttonQ1_green{
+  margin-left:15mm;
+  margin-right:15mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: #80DE51;
+  background-color: #1a1a00;
+  color: #80DE51;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  box-shadow: 0mm 0mm 1mm #80DE51;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 40mm;
+}
+.buttonQ1_green:hover{
+  margin-left:5mm;
+  margin-right:5mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: #80DE51;
+  background-color: #1a1a00;
+  color: #80DE51;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  width: 60mm;
+  box-shadow: 0mm 0mm 3mm #80DE51;
+  cursor: pointer;
+}
+
+.buttonQ1_orange{
+  margin-left:15mm;
+  margin-right:15mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: #FB542B;
+  background-color: #1a1a00;
+  color: #FB542B;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  box-shadow: 0mm 0mm 1mm #FB542B;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 40mm;
+}
+.buttonQ1_orange:hover{
+  margin-left:5mm;
+  margin-right:5mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: #FB542B;
+  background-color: #1a1a00;
+  color: #FB542B;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  width: 60mm;
+  box-shadow: 0mm 0mm 3mm #FB542B;
+  cursor: pointer;
+}
+.buttonQ1_teal{
+  margin-left:15mm;
+  margin-right:15mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: #88c6be;
+  background-color: #1a1a00;
+  color: #88c6be;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  box-shadow: 0mm 0mm 1mm #88c6be;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 40mm;
+}
+.buttonQ1_teal:hover{
+  margin-left:5mm;
+  margin-right:5mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-color: #88c6be;
+  background-color: #1a1a00;
+  color: #88c6be;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  width: 60mm;
+  box-shadow: 0mm 0mm 3mm #88c6be;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.buttonQ2_bluepaint{
+  margin: 1.2mm;
+  border: none;
+  color: #1a1a1a;
+  background-image: url(https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/img/bluepaints.jpg);
+  background-color: #1a1a1a;
+  font-family: 'Literata', serif;
+  background-position: top;
+  font-size: 5mm;
+  background-size: cover;
+  border-radius: 1mm;
+  -webkit-transition-duration: 1.5s; /* Safari */
+  transition-duration: 1.4s;
+  width: 60%;
+  height: 30mm;
+}
+.buttonQ2_bluepaint:hover{
+  margin: 1.2mm;
+  border: none;
+  color: #1a1a1a;
+  background-image: url(https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/img/bluepaints.jpg);
+  background-position: center;
+  background-color: #404040;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-radius: 1mm;
+  cursor: pointer;
+  width: 60%;
+  height: 30mm;
+}
+.buttonQ2_blacksands{
+  margin: 1.2mm;
+  border: none;
+  color: white;
+  background-image: url(https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/img/sands.jpg);
+  background-color: #1a1a1a;
+  font-family: 'Literata', serif;
+  background-size: cover;
+  background-position: top;
+  font-size: 5mm;
+  border-radius: 1mm;
+  -webkit-transition-duration: 1.5s; /* Safari */
+  transition-duration: 1.4s;
+  width: 60%;
+  height: 30mm;
+}
+.buttonQ2_blacksands:hover{
+  margin: 1.2mm;
+  border: none;
+  color: white;
+  background-image: url(https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/img/sands.jpg);
+  background-position: center;
+  background-color: #404040;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-radius: 1mm;
+  cursor: pointer;
+  width: 60%;
+  height: 30mm;
+}
+.buttonQ2_streams{
+  margin: 1.2mm;
+  border: none;
+  color: white;
+  background-image: url(https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/img/streams.jpg);
+  background-color: #1a1a1a;
+  background-size: cover;
+  font-family: 'Literata', serif;
+  background-position: top;
+  font-size: 5mm;
+  border-radius: 1mm;
+  -webkit-transition-duration: 1.5s; /* Safari */
+  transition-duration: 1.4s;
+  width: 60%;
+  height: 30mm;
+}
+.buttonQ2_streams:hover{
+  margin: 1.2mm;
+  border: none;
+  color: white;
+  background-image: url(https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/img/streams.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #404040;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-radius: 1mm;
+  cursor: pointer;
+  width: 60%;
+  height: 30mm;
+}
+
+
+.buttonQ2_city{
+  margin: 1.2mm;
+  border: none;
+  color: black;
+  background-image: url(https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/img/city.jpg);
+  background-color: #1a1a1a;
+  background-size: cover;
+  font-family: 'Literata', serif;
+  background-position: top;
+  font-size: 5mm;
+  border-radius: 1mm;
+  -webkit-transition-duration: 1.5s; /* Safari */
+  transition-duration: 1.4s;
+  width: 60%;
+  height: 30mm;
+}
+.buttonQ2_city:hover{
+  margin: 1.2mm;
+  border: none;
+  color: black;
+  background-image: url(https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/img/city.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #404040;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-radius: 1mm;
+  cursor: pointer;
+  width: 60%;
+  height: 30mm;
+}
+
+
+.buttonQ2_code{
+  margin: 1.2mm;
+  border: none;
+  color: white;
+  background-image: url(https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/img/code.jpg);
+  background-color: #1a1a1a;
+  background-size: cover;
+  font-family: 'Literata', serif;
+  background-position: top;
+  font-size: 5mm;
+  border-radius: 1mm;
+  -webkit-transition-duration: 1.5s; /* Safari */
+  transition-duration: 1.4s;
+  width: 60%;
+  height: 30mm;
+}
+.buttonQ2_code:hover{
+  margin: 1.2mm;
+  border: none;
+  color: white;
+  background-image: url(https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/img/code.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #404040;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  border-radius: 1mm;
+  cursor: pointer;
+  width: 60%;
+  height: 30mm;
+}
 
 /*JazzBlock ButtonX*/
 .buttonX{
@@ -163,7 +565,45 @@ HTML example
   cursor: pointer;
 }
 /*end*/
-
+/*JazzBlock buttonX_yellow*/
+.buttonX_yellow{
+  color: #e6e600;
+  border-style: solid;
+  border-color: #e6e600;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 0mm #e6e600;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonX_yellow:hover{
+  color: yellow;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm yellow;
+  cursor: pointer;
+}
+.buttonX_yellow:active{
+  color: #e6e600;
+  border-style: solid;
+  border-color: #e6e600;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #e6e600;
+  cursor: pointer;
+}
+/*end*/
 
 /*JazzBlock buttonX_orange*/
 .buttonX_orange{
@@ -282,7 +722,45 @@ HTML example
   cursor: pointer;
 }
 /*end*/
-
+/*JazzBlock buttonX_pink*/
+.buttonX_pink{
+  color: #cc00cc;
+  border-style: solid;
+  border-color: #cc00cc;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 0mm #cc00cc;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonX_pink:hover{
+  color: #ff00ff;
+  border-style: solid;
+  border-color: #ff00ff;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #ff00ff;
+  cursor: pointer;
+}
+.buttonX_pink:active{
+  color: #b300b3;
+  border-style: solid;
+  border-color: #b300b3;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #b300b3;
+  cursor: pointer;
+}
+/*end*/
 
 
 
@@ -323,6 +801,81 @@ HTML example
   border-color: #b3b3b3;
   border-width: 1mm;
   box-shadow: 0mm 0mm 5mm #b3b3b3;
+}
+/*end*/
+
+/*JazzBlock buttonY_yellow*/
+.buttonY_yellow{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #e6e600;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #e6e600;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonY_yellow:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: yellow;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: yellow;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 4mm #e6e600;
+  cursor: pointer;
+}
+.buttonY_yellow:active{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #e6e600;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #e6e600;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm yellow;
+}
+/*end*/
+/*JazzBlock buttonY_pink*/
+.buttonY_pink{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cc00cc;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #cc00cc;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonY_pink:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #b300b3;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #b300b3;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #b300b3;
+  cursor: pointer;
+}
+.buttonY_pink:active{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #ff00ff;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #ff00ff;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #ff00ff;
 }
 /*end*/
 /*JazzBlock buttonY_red*/
@@ -540,6 +1093,58 @@ HTML example
   border-color: #88c6be;
   border-width: 1mm;
   box-shadow: 0mm 0mm 6mm #88c6be;
+  cursor: pointer;
+}
+/*end*/
+/*JazzBlock buttonZ_yellow*/
+.buttonZ_yellow{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #e6e600;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #e6e600;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonZ_yellow:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: yellow;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: yellow;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 6mm #e6e600;
+  cursor: pointer;
+}
+/*end*/
+/*JazzBlock buttonZ_pink*/
+.buttonZ_pink{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cc00cc;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #cc00cc;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonZ_pink:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #ff00ff;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #ff00ff;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 6mm #ff00ff;
   cursor: pointer;
 }
 /*end*/
@@ -797,7 +1402,109 @@ HTML example
   box-shadow: 0mm 0mm 5mm #FB542B;
 }
 /*end*/
+.buttonNeon{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #17bf63;
+  border-top: 0.5mm solid #17bf63;
+  border-radius: 5mm;
+  color: #17bf63;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+}
+.buttonNeon:hover{
 
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:5mm;
+  padding-bottom:5mm;
+  border-radius: 5mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  margin-right: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #99ff99;
+  border-top: 0.5mm solid #99ff99;
+  color: #99ff99;
+  background: rgba(0, 0, 0, 0.0);
+  margin-bottom: 0mm;
+  margin-top: 0mm;
+  cursor: pointer;
+}
+.buttonNeon2{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #17bf63;
+  border-top: 0.5mm solid #17bf63;
+  border-radius: 5mm;
+  color: #17bf63;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+}
+.buttonNeon2:hover{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #99ff99;
+  border-top: 0.5mm solid #99ff99;
+  border-radius: 5mm;
+  color: #99ff99;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+  cursor: pointer;
+}
+.buttonNeonAct{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #cecece;
+  border-top: 0.5mm solid #cecece;
+  border-radius: 5mm;
+  color: #cecece;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+  cursor:not-allowed;
+}
 
 
 /*JazzBlock jumb0tr0n*/
@@ -910,7 +1617,183 @@ border-right: none;
 }
 
 /*end*/
+/*
 
+
+    font-family: 'Chilanka', cursive;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'La Belle Aurore', cursive;
+
+    font-family: 'Literata', serif;
+
+    font-family: 'Oswald', sans-serif;
+
+
+*/
+/*JazzBlock po and all compatable mods*/
+.ph{
+  font-family: 'Chilanka', cursive;
+  font-size: 4mm;
+}
+.ph_s{
+  font-family: 'Chilanka', cursive;
+  font-size: 3mm;
+}
+.ph_m{
+  font-family: 'Chilanka', cursive;
+  font-size: 5mm;
+}
+.ph_l{
+  font-family: 'Chilanka', cursive;
+  font-size: 8mm;
+}
+.ph_u{
+  font-family: 'Chilanka', cursive;
+  font-size: 4mm;
+  text-decoration: underline;
+
+}
+.ph_s_u{
+  font-family: 'Chilanka', cursive;
+  font-size: 3mm;
+  text-decoration: underline;
+}
+.ph_m_u{
+  font-family: 'Chilanka', cursive;
+  font-size: 5mm;
+  text-decoration: underline;
+}
+.ph_l_u{
+  font-family: 'Chilanka', cursive;
+  font-size: 8mm;
+  text-decoration: underline;
+}
+.ph_o{
+  font-family: 'Chilanka', cursive;
+  font-size: 4mm;
+  text-decoration: overline;
+
+}
+.ph_s_o{
+  font-family: 'Chilanka', cursive;
+  font-size: 3mm;
+  text-decoration: overline;
+}
+.ph_m_o{
+  font-family: 'Chilanka', cursive;
+  font-size: 5mm;
+  text-decoration: overline;
+}
+.ph_l_o{
+  font-family: 'Chilanka', cursive;
+  font-size: 8mm;
+  text-decoration: overline;
+}
+.ph_st{
+  font-family: 'Chilanka', cursive;
+  font-size: 4mm;
+  text-decoration: line-through;
+
+}
+.ph_s_st{
+  font-family: 'Chilanka', cursive;
+  font-size: 3mm;
+  text-decoration: line-through;
+}
+.ph_m_st{
+  font-family: 'Chilanka', cursive;
+  font-size: 5mm;
+  text-decoration: line-through;
+}
+.ph_l_st{
+  font-family: 'Chilanka', cursive;
+  font-size: 8mm;
+  text-decoration: line-through;
+}
+/*end*/
+/*JazzBlock po and all compatable mods*/
+.po{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4mm;
+}
+.po_s{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3mm;
+}
+.po_m{
+  font-family: 'Oswald', sans-serif;
+  font-size: 5mm;
+}
+.po_l{
+  font-family: 'Oswald', sans-serif;
+  font-size: 8mm;
+}
+.po_u{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4mm;
+  text-decoration: underline;
+
+}
+.po_s_u{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3mm;
+  text-decoration: underline;
+}
+.po_m_u{
+  font-family: 'Oswald', sans-serif;
+  font-size: 5mm;
+  text-decoration: underline;
+}
+.po_l_u{
+  font-family: 'Oswald', sans-serif;
+  font-size: 8mm;
+  text-decoration: underline;
+}
+.po_o{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4mm;
+  text-decoration: overline;
+
+}
+.po_s_o{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3mm;
+  text-decoration: overline;
+}
+.po_m_o{
+  font-family: 'Oswald', sans-serif;
+  font-size: 5mm;
+  text-decoration: overline;
+}
+.po_l_o{
+  font-family: 'Oswald', sans-serif;
+  font-size: 8mm;
+  text-decoration: overline;
+}
+.po_st{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4mm;
+  text-decoration: line-through;
+
+}
+.po_s_st{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3mm;
+  text-decoration: line-through;
+}
+.po_m_st{
+  font-family: 'Oswald', sans-serif;
+  font-size: 5mm;
+  text-decoration: line-through;
+}
+.po_l_st{
+  font-family: 'Oswald', sans-serif;
+  font-size: 8mm;
+  text-decoration: line-through;
+}
+/*end*/
 /*JazzBlock pc and all compatable mods*/
 .pc{
   font-family: 'Ubuntu', sans-serif;
@@ -1178,11 +2061,7 @@ border-right: none;
   overflow: visible;
 }
 /*end*/
-.con1{
-color: #cecece;
-  background-position: center;
-  width: 100%;
-}
+
 /*JazzBlock badge_box*/
 .badge_box{
   font-family: 'Ubuntu', sans-serif;
@@ -1194,3 +2073,253 @@ color: #cecece;
   border-radius: 0.5mm;
 }
 /*end*/
+/*JazzBlock badge_box_blue*/
+.badge_box_blue{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #d9e6f2;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+/*JazzBlock badge_box_green*/
+.badge_box_green{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #66ff66;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+
+/*JazzBlock badge_box_red*/
+.badge_box_red{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ff1a1a;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+/*JazzBlock badge_box_yellow*/
+.badge_box_yellow{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: yellow;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+
+/*JazzBlock badge_box_orange*/
+.badge_box_orange{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: orange;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+
+/*JazzBlock badge_box_teal*/
+.badge_box_teal{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #008080;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+/*JazzBlock badge_box_pink*/
+.badge_box_pink{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ff6680;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+/*JazzBlock badge_box_blue*/
+.badge_box_blue{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: blue;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+
+
+
+
+/*JazzBlock badge_round*/
+.badge_round{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #bfbfbf;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock badge_round_blue*/
+.badge_round_blue{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #d9e6f2;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock badge_round_green*/
+.badge_round_green{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #66ff66;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+
+/*JazzBlock badge_round_red*/
+.badge_round_red{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ff1a1a;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock badge_round_yellow*/
+.badge_round_yellow{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: yellow;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+
+/*JazzBlock badge_round_orange*/
+.badge_round_orange{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: orange;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+
+/*JazzBlock badge_round_teal*/
+.badge_round_teal{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #008080;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock badge_round_pink*/
+.badge_round_pink{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ff6680;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock badge_round_blue*/
+.badge_round_blue{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: blue;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock con1*/
+.con1{
+  background-image: url(./img/teamtech.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 100%
+}
+/**/
+/*JazzBlock fade*/
+#fade{
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+/*end*/
+.buttonM1_blue{
+  color: #cecece;
+  border-style: solid;
+  border-color: #A0A1B2;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 4mm;
+  background-color: #A0A1B2;
+  box-shadow: 0mm 0mm 0mm #FB542B;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 25%;
+  transform: rotate(0deg);
+}
+.buttonM1_blue:hover{
+  color: #cecece;
+  border-style: solid;
+  border-color: #0073e6;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 4mm;
+  background-color: #0073e6;
+  box-shadow: 0mm 0mm 5mm #3399ff;
+  cursor: pointer;
+}
+.buttonM1_blue:active{
+  color: #343546;
+  border-style: solid;
+  border-color: #3399ff;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 4mm;
+  background-color: #3399ff;
+  box-shadow: 0mm 0mm 5mm #0073e6;
+}
